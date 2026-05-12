@@ -2,27 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Laurdle</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurden</title>
+    <style>
+        body { 
+            background-color: #121213; 
+            color: white; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+        img { width: 150px; border-radius: 50%; margin-bottom: 20px; border: 3px solid #538d4e; }
+        h1 { letter-spacing: 0.2rem; margin-bottom: 30px; font-weight: 300; }
+        .btn { 
+            background-color: #538d4e; 
+            color: white; 
+            padding: 15px 40px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            text-transform: uppercase;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+    </style>
 </head>
 <body>
-    <div id="game-container">
-        <header><h1>LAURDLE</h1></header>
-        <div id="board"></div>
-        <div id="keyboard"></div>
-    </div>
-
-    <!-- Hidden Modal for Win/Loss -->
-    <div id="modal" class="hidden">
-        <div class="modal-content">
-            <h2 id="modal-title"></h2>
-            <div id="modal-message"></div>
-            <button onclick="document.getElementById('modal').classList.add('hidden')">Close</button>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-    <script type="module" src="main.js"></script>
+    <img src="icon.png" alt="Laurden Icon">
+    <h1>LAURDEN</h1>
+    <a href="/laurdle" class="btn">Play Laurdle</a>
 </body>
 </html>
