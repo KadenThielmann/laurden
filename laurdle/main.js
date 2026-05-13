@@ -1,7 +1,7 @@
 import { WORD_BANK } from './words.js';
 
 // 1. Precise Date Logic (Local Time)
-const launchDate = new Date(2026, 4, 12); // May 12, 2026
+const launchDate = new Date(2026, 4, 13); // May 13, 2026
 const today = new Date();
 today.setHours(0, 0, 0, 0);
 

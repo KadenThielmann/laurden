@@ -8,10 +8,10 @@ export const WORD_BANK = [
     { word: "CHERRY", message: "Official verdict of fresh cherry pancakes: Pending. I'm looking forward to making them with you. 🍒" },
     { word: "FUDGE", message: "Car picnic with your favourite cake!" },
     { word: "BRIDGE", message: "We walked through it 4 weeks after you said we'd have to come back to it sometime." },
-    { word: "BROWN", message: "apparently kindergarten Kaden's favourite colour" },
+    { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" },
     { word: "BOARD", message: "You put up a good fight at The Round Table." },
     { word: "CHALK", message: "I found chalk on everything after our climbing date" },
     { word: "SHELL", message: "Or should it be Shell x2? 😉" },
-    { word: "WINDOW", message: "A necessity over our kitchen sink." },
-    { word: "VACUUM", message: "We'll make this a blue job 😉" }
+    { word: "WINDOW", message: "A necessity over the kitchen sink." },
+    { word: "VACUUM", message: "We'll make this a blue job." }
 ];
