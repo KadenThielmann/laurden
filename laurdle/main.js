@@ -1,5 +1,25 @@
 import { WORD_BANK } from './words.js';
 
+// --- SECRET STREAK REPAIR PROTOCOL ---
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('restoreLedger')) {
+    const repairedStats = {
+        played: 3,
+        wins: 3,
+        streak: 3,
+        maxStreak: 3,
+        lastDayIndex: 2, // Marks Day 3 (May 15) as officially logged
+        // Index 3 = 4 guesses (1 time), Index 4 = 5 guesses (2 times)
+        distribution: [0, 0, 0, 1, 2, 0] 
+    };
+    
+    // Injecting the flawless history into her browser memory
+    localStorage.setItem('laurdle_stats', JSON.stringify(repairedStats));
+    
+    // Instantly wipe the secret parameter from the URL bar so it stays invisible
+    window.history.replaceState({}, document.title, window.location.pathname);
+}
+
 // 1. Precise Date Logic (Local Time)
 const launchDate = new Date(2026, 4, 13); // May 13, 2026
 const today = new Date();
