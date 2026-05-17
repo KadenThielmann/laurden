@@ -4,16 +4,16 @@ import { WORD_BANK } from './words.js';
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('restoreLedger')) {
     const repairedStats = {
-        played: 3,
-        wins: 3,
-        streak: 3,
-        maxStreak: 3,
-        lastDayIndex: 2, // Marks Day 3 (May 15) as officially logged
-        // Index 3 = 4 guesses (1 time), Index 4 = 5 guesses (2 times)
-        distribution: [0, 0, 0, 1, 2, 0] 
+        played: 4,
+        wins: 4,
+        streak: 4,
+        maxStreak: 4,
+        lastDayIndex: 3, // Marks Day 4 (May 16) as officially completed
+        // Index 3 = 4 guesses (2 times), Index 4 = 5 guesses (2 times)
+        distribution: [0, 0, 0, 2, 2, 0] 
     };
     
-    // Injecting the flawless history into her browser memory
+    // Injecting the corrected history into her browser memory
     localStorage.setItem('laurdle_stats', JSON.stringify(repairedStats));
     
     // Instantly wipe the secret parameter from the URL bar so it stays invisible
