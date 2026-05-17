@@ -1,5 +1,16 @@
 import { WORD_BANK } from './words.js';
 
+// --- TEMPORARY MOBILE DEBUGGER ---
+let headerClicks = 0;
+document.querySelector('header h1').addEventListener('click', () => {
+    headerClicks++;
+    if (headerClicks === 15) {
+        const currentData = localStorage.getItem('laurdle_stats');
+        alert(currentData ? currentData : "Local Storage is completely empty.");
+        headerClicks = 0; // Reset counter
+    }
+});
+
 // --- SECRET STREAK REPAIR PROTOCOL ---
 const urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('restoreLedger')) {
