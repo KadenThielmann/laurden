@@ -6,12 +6,12 @@ export const WORD_BANK = [
     { word: "SCONE", message: "A throwback to our first date. It's sweet looking back at where this started, and I've really loved getting to know you. 😊" },
     { word: "CLIMB", message: "Our first activity together. I really appreciated you stepping out of your comfort zone to share that experience with me." },
     { word: "BRIDGE", message: "We walked through it four weeks after you said we'd have to come back to it sometime. I love that a little comment from our first date became a real memory." },
-    { word: "BURGER", message: "Our first meal together. We were the last two to ever get that Farm Boy deal." },
-    { word: "FUDGE", message: "Car picnic with your favourite cake!" },
-    { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" },
-    { word: "BOARD", message: "You put up a good fight at The Round Table." },
+    { word: "BURGER", message: "The legendary Farm Boy burger deal. It still makes me smile that you tried kombucha just because I love it, even after hearing it tastes bad." },
+    { word: "BOARD", message: "You put up a good fight at The Round Table. Your Bananagrams skills are impressive! Rematch soon?" },
+    { word: "FUDGE", message: "I loved our car picnic with your favourite cake ☺️" },
+    { word: "SHELL", message: "Or should it be shell x2? 😉" },
+    { word: "VACUUM", message: "We can make this a blue job 😉" },
+    { word: "WINDOW", message: "A necessity over our kitchen sink." },
     { word: "CHALK", message: "I found chalk on everything after our climbing date" },
-    { word: "SHELL", message: "Or should it be Shell x2? 😉" },
-    { word: "WINDOW", message: "A necessity over the kitchen sink." },
-    { word: "VACUUM", message: "We'll make this a blue job." }
+    { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
