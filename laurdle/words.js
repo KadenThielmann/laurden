@@ -9,7 +9,7 @@ export const WORD_BANK = [
     { word: "BURGER", message: "The legendary Farm Boy burger deal. It still makes me smile that you tried kombucha just because I love it, even after hearing it tastes bad." },
     { word: "BOARD", message: "You put up a good fight at The Round Table. Your Bananagrams skills are impressive! Rematch soon?" },
     { word: "FUDGE", message: "I loved our car picnic with your favourite cake ☺️" },
-    { word: "SHELL", message: "Or should it be shell x2? 😉" },
+    { word: "SHELL", message: "Or should it be shell x2? 😉🍨" },
     { word: "VACUUM", message: "We can make this a blue job 😉" },
     { word: "WINDOW", message: "A necessity over our kitchen sink." },
     { word: "CHALK", message: "I found chalk on everything after our climbing date" },
