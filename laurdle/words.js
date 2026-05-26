@@ -12,6 +12,8 @@ export const WORD_BANK = [
     { word: "SHELL", message: "Or should it be shell x2? 😉🍨" },
     { word: "VACUUM", message: "We can make this a blue job 😉" },
     { word: "WINDOW", message: "A necessity over our kitchen sink." },
-    { word: "CHALK", message: "I found chalk on everything after our climbing date" },
+    { word: "MUSIC", message: "You have a beautiful voice! I love singing in the car with you and learning your favourite songs." },
+    { word: "HEART", message: "You have a beautiful heart, and I feel blessed to keep getting to know it." },
+    { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
