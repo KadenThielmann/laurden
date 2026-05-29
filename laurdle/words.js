@@ -15,6 +15,7 @@ export const WORD_BANK = [
     { word: "MUSIC", message: "You have a beautiful voice! I love singing in the car with you and learning your favourite songs." },
     { word: "FAMILY", message: "I love how much you love your family. I can't wait to meet them and for you to meet mine." },
     { word: "HEART", message: "You have a beautiful heart, and I feel blessed to keep getting to know it." },
+    { word: "STRIKE", message: "You got a strike (1), a spare (2), broke 100 (3), won a game (4), and you wanted a fifth (too cute). You looked good doing it!" },
     { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
