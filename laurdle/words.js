@@ -17,6 +17,7 @@ export const WORD_BANK = [
     { word: "HEART", message: "You have a beautiful heart, and I feel blessed to keep getting to know it." },
     { word: "STRIKE", message: "You got a strike (1), a spare (2), broke 100 (3), won a game (4), and you wanted a fifth (too cute). You looked good doing it!" },
     { word: "DINER", message: "The food wasn't great, but the company was perfect. I love that we wished another couple a happy anniversary right before starting our own. ❤️" },
+    { word: "SUPPLY", message: "The magic chicken supply lives on. More for you today ❤️" },
     { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
