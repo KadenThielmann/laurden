@@ -19,6 +19,7 @@ export const WORD_BANK = [
     { word: "DINER", message: "The food wasn't great, but the company was perfect. I love that we wished another couple a happy anniversary right before starting our own. ❤️" },
     { word: "SUPPLY", message: "The magic chicken supply lives on. More for you today ❤️" },
     { word: "SMILE", message: "You have a stunning smile. Sometimes I try to make you laugh just so I can see it 😉" },
+    { word: "CHIPS", message: "Handfuls of chocolate chips? Plain Ruffles? The chocolate chips in the banana bread? I'll go with the baker 🥰" },
     { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
