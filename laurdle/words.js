@@ -21,6 +21,7 @@ export const WORD_BANK = [
     { word: "SMILE", message: "You have a stunning smile. Sometimes I try to make you laugh just so I can see it 😉" },
     { word: "CHIPS", message: "Handfuls of chocolate chips? Plain Ruffles? The chocolate chips in the banana bread? I'll go with the baker 🥰" },
     { word: "DRIVES", message: "I love our drives together. I find myself hoping for red lights just to get a little more time with you." },
+    { word: "LIGHT", message: "You bring so much light into the little moments. I'm thankful for you and for the way your faith shines through your life." },
     { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
