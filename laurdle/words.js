@@ -25,6 +25,10 @@ export const WORD_BANK = [
     { word: "GIFTS", message: "Having you in my life has been one of the sweetest gifts of this year. ❤️" },
     { word: "HOURS", message: "Hours with you feel like minutes, and it never feels like enough. ❤️" },
     { word: "THEME", message: "Today starts a themed week: some of my favourite things about you. First up: you are genuinely beautiful, inside and out." },
+    { word: "GENTLE", message: "One of my favourite things about you is your gentleness. You have such a soft and caring heart, but there is real strength in the way you carry yourself and choose kindness." },
+    { word: "JOYFUL", message: "One of my favourite things about you is your joy. I love the way you laugh, get excited, sing in the car, and bring sweetness into ordinary moments." },
+    { word: "GRACE", message: "One of my favourite things about you is the grace you show people, even when situations are difficult. You have such a gentle and steady way of trying to do what is right." },
+    { word: "THIRTY", message: "30 days of Lardle" },
     { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
