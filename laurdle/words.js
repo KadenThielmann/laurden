@@ -27,8 +27,10 @@ export const WORD_BANK = [
     { word: "THEME", message: "Today starts a themed week: some of my favourite things about you. First up: you are genuinely beautiful, inside and out." },
     { word: "GENTLE", message: "One of my favourite things about you is your gentleness. You have such a soft and caring heart, but there is real strength in the way you carry yourself and choose kindness." },
     { word: "JOYFUL", message: "One of my favourite things about you is your joy. I love the way you laugh, get excited, sing in the car, and bring sweetness into ordinary moments." },
-    { word: "GRACE", message: "One of my favourite things about you is the grace you show people, even when situations are difficult. You have such a gentle and steady way of trying to do what is right." },
-    { word: "THIRTY", message: "30 days of Lardle" },
+    { word: "CARED", message: "You wrote that you're glad to be cared for by me, and that meant a lot. One of my favourite things about you is how deeply you care for me and the people around you. It makes it very easy to want to care for you, encourage you, and make you feel loved." },
+    { word: "THIRTY", message: "30 days of Laurdle ❤️ What started as a little idea for you has become one of my favourite parts of each day. One of my favourite things about you is how naturally you make ordinary moments feel special." },
+    { word: "EFFORT", message: "One of my favourite things about you is the care and effort you put into the things that matter. I know how much you've poured into these report cards, and I can't wait to celebrate you being done tonight ❤️" },
+    { word: "GRACE", message: "One of my favourite things about you is the grace you show people, even when situations are difficult. You have such a steady and caring way of trying to do what is right." },
     { word: "CHALK", message: "I found chalk on everything after our climbing date, but I loved every second with you." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
