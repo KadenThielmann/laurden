@@ -32,5 +32,6 @@ export const WORD_BANK = [
     { word: "EFFORT", message: "One of my favourite things about you is the care and effort you put into the things that matter. I know how much you've poured into these report cards, and I can't wait to celebrate you being done tonight ❤️" },
     { word: "GRACE", message: "One of my favourite things about you is the grace you show people, even when situations are difficult. You have such a steady and caring way of trying to do what is right." },
     { word: "CHALK", message: "I found chalk on everything after our climbing date. Not sure climbing won you over, but you definitely won me over by stepping so willingly into something that wasn't really your thing just to be with me ❤️" },
+    { word: "TRUST", message: "This weekend made me really grateful for the trust we're building.<br><br>I loved the way we could laugh, talk deeply, be honest about where we're at, and feel safe with each other. Getting to know your heart has been such a gift to me ❤️" },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
