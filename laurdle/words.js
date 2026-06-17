@@ -34,5 +34,6 @@ export const WORD_BANK = [
     { word: "CHALK", message: "I found chalk on everything after our climbing date. Not sure climbing won you over, but you definitely won me over by stepping so willingly into something that wasn't really your thing just to be with me ❤️" },
     { word: "TRUST", message: "This weekend made me really grateful for the trust we're building.<br><br>I loved the way we could laugh, talk deeply, be honest about where we're at, and feel safe with each other. Getting to know your heart has been such a gift to me ❤️" },
     { word: "JUDAH", message: `Judah calling you "Tito's Lauren" was the cutest thing ever 🥹<br><br>Between inviting you to Japan and wanting to come to Canada for chicken nuggets at Bob Donald's with you, I think you may already be his best friend 🥰<br><br>It was so nice how quickly they warmed up to you. You have such a gentle and welcoming presence that helps people feel safe with you so naturally.` },
+    { word: "PORCH", message: `You put this word in my head and I haven't been able to get it out 😉<br><br>Do I even need to explain this one? 😘` },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
