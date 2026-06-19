@@ -36,5 +36,6 @@ export const WORD_BANK = [
     { word: "JUDAH", message: `Judah calling you "Tito's Lauren" was the cutest thing ever 🥹<br><br>Between inviting you to Japan and wanting to come to Canada for chicken nuggets at Bob Donald's with you, I think you may already be his best friend 🥰<br><br>It was so nice how quickly they warmed up to you. You have such a gentle and welcoming presence that helps people feel safe with you so naturally.` },
     { word: "PORCH", message: `You put this word in my head and I haven't been able to get it out 😉<br><br>Do I even need to explain this one? 😘` },
     { word: "JAPAN", message: "I'm so excited to explore with you, introduce you to Jazmin and her family, have endless fun with the kids, and watch you experience a place that's special to me.<br><br>It feels really sweet that we get to dream about something like this together and actually make it real ❤️" },
+    { word: "PAINT", message: "I'm so excited to see how our ceramics turned out 🥰Painting them with you was such a fun part of an already perfect weekend." },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
