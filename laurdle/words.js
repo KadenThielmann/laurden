@@ -39,5 +39,6 @@ export const WORD_BANK = [
     { word: "PAINT", message: "I'm so excited to see how our ceramics turned out 🥰Painting them with you was such a fun part of an already perfect weekend." },
     { word: "NUGGET", message: "Judah already warmed up to you so quickly, but finding out that you like chicken nuggets too sealed the deal: best friends 🥹<br><br>“Lauren likes chicken nuggets too? Come to Japan to eat them with me.”<br><br>It makes me so happy thinking about you meeting them. I can't wait for them to experience the joy, care, and gentleness you have with kids ❤️" },
     { word: "SERVE", message: "One of the things I admire about you is how naturally you show up to serve others.<br><br>You spent yesterday morning helping at the work bee, and today you're back in Guelph to serve in kids min. Even in a full weekend, you still choose to give your time, energy, and care to people around you.<br><br>I love seeing the way your faith shows up in how you live ❤️" },
+    { word: "SELFIE", message: "I've been loving all the selfies of you 😍<br><br>I love getting little glimpses of your day and seeing your beautiful face.<br><br>My photos have been filling up with pictures of you, and I'm definitely not complaining ❤️" },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
