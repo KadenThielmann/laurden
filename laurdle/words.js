@@ -41,5 +41,6 @@ export const WORD_BANK = [
     { word: "SERVE", message: "One of the things I admire about you is how naturally you show up to serve others.<br><br>You spent yesterday morning helping at the work bee, and today you're back in Guelph to serve in kids min. Even in a full weekend, you still choose to give your time, energy, and care to people around you.<br><br>I love seeing the way your faith shows up in how you live ❤️" },
     { word: "SELFIE", message: "I've been loving all the selfies of you 😍<br><br>I love getting little glimpses of your day and seeing your beautiful face.<br><br>My photos have been filling up with pictures of you, and I'm definitely not complaining ❤️" },
     { word: "SHIRT", message: "I was a casual Germany fan before, but after seeing you in that shirt, I'm rooting for them to go all the way 😍<br><br>My parents thought they were just giving you something to wear for the game, but they accidentally gave me a gift too.<br><br>It was hard to focus on making the pizza and playing Sequence 😉" },
+    { word: "THROW", message: "You started off with 3 points, then hit a bullseye on your second throw! 🎯<br><br>How are you so good at everything? It was very impressive and very attractive 😍" },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
