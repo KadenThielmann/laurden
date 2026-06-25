@@ -42,5 +42,6 @@ export const WORD_BANK = [
     { word: "SELFIE", message: "I've been loving all the selfies of you 😍<br><br>I love getting little glimpses of your day and seeing your beautiful face.<br><br>My photos have been filling up with pictures of you, and I'm definitely not complaining ❤️" },
     { word: "SHIRT", message: "I was a casual Germany fan before, but after seeing you in that shirt, I'm rooting for them to go all the way 😍<br><br>My parents thought they were just giving you something to wear for the game, but they accidentally gave me a gift too.<br><br>It was hard to focus on making the pizza and playing Sequence 😉" },
     { word: "THROW", message: "You started off with 3 points, then hit a bullseye on your second throw! 🎯<br><br>How are you so good at everything? It was very impressive and very attractive 😍" },
+    { word: "PROUD", message: "You've poured so much care, patience, prayer, and effort into your students this year. I'm so proud of the teacher you are and the way you love your students so well.<br><br>You've made a huge difference, and it was noticed by leadership and felt by your students. I'm incredibly proud of you ❤️" },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
