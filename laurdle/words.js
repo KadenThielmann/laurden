@@ -44,5 +44,6 @@ export const WORD_BANK = [
     { word: "THROW", message: "You started off with 3 points, then hit a bullseye on your second throw! 🎯<br><br>How are you so good at everything? It was very impressive and very attractive 😍" },
     { word: "PROUD", message: "You've poured so much care, patience, prayer, and effort into your students this year. I'm so proud of the teacher you are and the way you love your students so well.<br><br>You've made a huge difference, and it was noticed by leadership and felt by your students. I'm incredibly proud of you ❤️" },
     { word: "PICNIC", message: "We finally did it! No picnic bag, no blanket, and no salad dressing... but I had the most important part: you 🥰<br><br>We don’t need a perfect setup to have a perfect picnic ❤️" },
+    { word: "BENNY", message: "I've been wanting to take you for brunch to get Eggs Benedict ever since you mentioned liking it two months ago.<br><br>I finally get to see you early enough for brunch, and I'm very excited to start the day with one of your favourites ❤️" },
     { word: "BROWN", message: "Apparently kindergarten Kaden's favourite colour" }
 ];
