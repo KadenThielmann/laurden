@@ -11,23 +11,19 @@ document.querySelector('header h1').addEventListener('click', () => {
     }
 });
 
-// --- SECRET STREAK REPAIR PROTOCOL ---
+// --- NEW STREAK REPAIR PROTOCOL (JULY 7) ---
 const urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has('restoreLedger')) {
+if (urlParams.has('fixLaurenStats')) {
     const repairedStats = {
-        played: 4,
-        wins: 4,
-        streak: 4,
-        maxStreak: 4,
-        lastDayIndex: 3, // Marks Day 4 (May 16) as officially completed
-        // Index 3 = 4 guesses (2 times), Index 4 = 5 guesses (2 times)
-        distribution: [0, 0, 0, 2, 2, 0] 
+        played: 56,
+        wins: 56,
+        streak: 56,
+        maxStreak: 56,
+        lastDayIndex: 55, // Marks Day 56 (July 7) as completed
+        distribution: [0, 2, 13, 22, 16, 3] 
     };
     
-    // Injecting the corrected history into her browser memory
     localStorage.setItem('laurdle_stats', JSON.stringify(repairedStats));
-    
-    // Instantly wipe the secret parameter from the URL bar so it stays invisible
     window.history.replaceState({}, document.title, window.location.pathname);
 }
 
