@@ -11,22 +11,6 @@ document.querySelector('header h1').addEventListener('click', () => {
     }
 });
 
-// --- NEW STREAK REPAIR PROTOCOL (JULY 7) ---
-const urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has('fixLaurenStats')) {
-    const repairedStats = {
-        played: 56,
-        wins: 56,
-        streak: 56,
-        maxStreak: 56,
-        lastDayIndex: 55, // Marks Day 56 (July 7) as completed
-        distribution: [0, 2, 13, 22, 16, 3] 
-    };
-    
-    localStorage.setItem('laurdle_stats', JSON.stringify(repairedStats));
-    window.history.replaceState({}, document.title, window.location.pathname);
-}
-
 // 1. Precise Date Logic (Local Time)
 const launchDate = new Date(2026, 4, 13); // May 13, 2026
 const today = new Date();
