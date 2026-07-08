@@ -55,5 +55,6 @@ export const WORD_BANK = [
     { word: "PAUSE", message: "Yesterday was such an amazing day!<br><br>Even though we had to wait a long time, I honestly loved having that extra time with you to slow down, talk, laugh, and just be together.<br><br>Skydiving was amazing, but waiting with you somehow became one of my favourite parts ❤️" },
     { word: "TACOS", message: `Your taco casserole was so good!<br><br>One day we're jumping out of a plane, and the next day I'm just as excited to be your sous chef and eat your cooking. You absolutely crushed both recipe meals you made this week.<br><br>I didn't know I was dating a legit chef 😍` },
     { word: "DUETS", message: `Singing duets with you in the car has become one of my favourite things 🥰<br><br>It's sooo much fun, and once we start I never want it to end.<br><br>I can't get enough of your singing ❤️` },
+    { word: "GROWN", message: `I've loved getting so much time with you lately 🥰<br><br>Getting to see you almost every day while you've been here has felt so natural and fun. It makes me really grateful for the way we keep growing closer.<br><br>I love you, and I'm so excited to keep growing together ❤️` },
     { word: "H", message: "Refresh page" }
 ];
