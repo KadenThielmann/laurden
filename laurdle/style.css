@@ -242,3 +242,51 @@ button.absent { background-color: var(--absent); opacity: 0.5; }
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
+
+/* --- LAUREN'S SLIDESHOW (MODEL DAY) --- */
+.slideshow-frame {
+    width: 100%;
+    max-width: 280px;
+    margin: 15px auto;
+    padding: 8px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5; /* Clean portrait framing */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures photos are cropped to fit without distortion */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* 9-Second Animation Loop (2.5s display + 0.5s transition per image) */
+.slide-1 { animation: playSlide1 9s infinite; }
+.slide-2 { animation: playSlide2 9s infinite; }
+.slide-3 { animation: playSlide3 9s infinite; }
+
+@keyframes playSlide1 {
+    0%, 27.78%, 100% { opacity: 1; z-index: 2; }
+    33.33%, 94.44% { opacity: 0; z-index: 1; }
+}
+@keyframes playSlide2 {
+    0%, 27.78%, 66.67%, 100% { opacity: 0; z-index: 1; }
+    33.33%, 61.11% { opacity: 1; z-index: 2; }
+}
+@keyframes playSlide3 {
+    0%, 61.11%, 100% { opacity: 0; z-index: 1; }
+    66.67%, 94.44% { opacity: 1; z-index: 2; }
+}

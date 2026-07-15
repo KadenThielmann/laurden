@@ -62,5 +62,19 @@ export const WORD_BANK = [
     { word: "THREE", message: `Three months with you 🥰<br><br>It's crazy how much has happened since those first scones: so many dates, prayers, songs, laughs, adventures, and little ordinary moments that have become really special.<br><br>I'm so grateful for the way God brought you into my life, and I'm so excited to keep loving you and growing with you ❤️` },
     { word: "MARKET", message: `It was so fun hanging out with Bekah and Jacob! I'm looking forward to us all hanging out again sometime when we have a bit more time.<br><br>I love getting to know the people who matter to you ❤️` },
     { word: "PEACE", message: `I'm praying God gives you peace, clarity, confidence, and that you're able to be fully yourself today.<br><br>You have so much wisdom, gentleness, and care to offer, and I pray they're able to see that through how you present yourself and answer their questions.<br><br>I'm so proud of you ❤️ You've grown so much, and wherever God leads you, the students and school are going to be so lucky to have you. God is in control, and He has a perfect plan for your life. 🙏🏻` },
+    { 
+      word: "MODEL", 
+      message: `
+        <div class="slideshow-frame">
+          <div class="slideshow-container">
+            <img class="slide slide-1" src="./images/model1.jpg" alt="Lauren 1" />
+            <img class="slide slide-2" src="./images/model2.jpg" alt="Lauren 2" />
+            <img class="slide slide-3" src="./images/model3.jpg" alt="Lauren 3" />
+          </div>
+        </div>
+        I'm dating a literal supermodel 😍<br><br>
+        Whether you're dressed up or just hanging out, you are so stunning, inside and out. I love getting to see your beautiful face, and I'm incredibly proud to be the guy by your side ❤️
+      ` 
+    },
     { word: "H", message: "Refresh page" }
 ];
