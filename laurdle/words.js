@@ -76,5 +76,6 @@ export const WORD_BANK = [
         Whether you're dressed up or just hanging out, you are so stunning, inside and out. I love getting to see your beautiful face, and I'm incredibly proud to be the guy by your side ❤️
       ` 
     },
+    { word: "DANGER", message: `Dangerously beautiful, dangerously charming, dangerously intelligent, and dangerously easy to adore 😍<br><br>Your smile, your laugh, your mind, your humour, your warmth, and your pretty face all work too well on me.<br><br>You're dangerous in all the best ways 😉` },
     { word: "H", message: "Refresh page" }
 ];
