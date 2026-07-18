@@ -78,5 +78,6 @@ export const WORD_BANK = [
     },
     { word: "DANGER", message: `Dangerously beautiful, dangerously charming, dangerously intelligent, and dangerously easy to adore 😍<br><br>Your smile, your laugh, your mind, your humour, your warmth, and your pretty face all work too well on me.<br><br>You're dangerous in all the best ways 😉` },
     { word: "LAUGH", message: `We've been smiling and laughing so much lately 🥰<br><br>It feels like we've grown even more comfortable, playful, and relaxed with each other, and I've really loved seeing that side of us come out more.<br><br>I love that we can talk deeply, pray together, be serious when we need to, and also have so much fun just laughing together ❤️` },
+    { word: "DREAM", message: `You really are the woman of my dreams, and I'm so blessed 🥰<br><br>I can't get enough of you during the day, so thank you for visiting me in my dreams too 😉<br><br>I love hearing about your dreams, telling you mine, and getting to laugh and smile over all the random little details together ❤️` },
     { word: "H", message: "Refresh page" }
 ];
