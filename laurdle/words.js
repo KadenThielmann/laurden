@@ -87,5 +87,6 @@ export const WORD_BANK = [
     { word: "BLUSH", message: `I hope this makes you blush 😉<br><br>You are so beautiful it genuinely catches me off guard sometimes. Your smile, your eyes, your laugh, your little expressions... all of it gets me.<br><br>I love that I get to be the one looking at you like that, and that I get to call you mine ❤️` },
     { word: "TEETH", message: `I loved brushing my teeth with you 🥰<br><br>It was such a simple little moment, but it felt really special. I loved getting to stay up late talking deeply with you and not needing to think about driving home.<br><br>And I get to wake up near you and have French toast together too!! ❤️` },
     { word: "STORY", message: `You posting me to your story made me feel really special 🥰<br><br>I know it's a small thing, but it felt really nice to be shown off by the most beautiful girl in the world.<br><br>I love being yours, and I'm very grateful I get to be the guy by your side and show you off too ❤️` },
+    { word: "TRAIL", message: `Over 2 hours of trying to find and navigate the trails 😂<br><br>I love how easily you fit with the people in my life. Yet again, everyone loves you and says we're a great match 🥰<br><br>And you absolutely crushed Codenames, winning every game! That's my girl 😍` },
     { word: "H", message: "Refresh page" }
 ];
