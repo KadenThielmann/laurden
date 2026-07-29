@@ -89,5 +89,6 @@ export const WORD_BANK = [
     { word: "STORY", message: `You posting me to your story made me feel really special 🥰<br><br>I know it's a small thing, but it felt really nice to be shown off by the most beautiful girl in the world.<br><br>I love being yours, and I'm very grateful I get to be the guy by your side and show you off too ❤️` },
     { word: "TRAIL", message: `Over 2 hours of trying to find and navigate the trails 😂<br><br>I love how easily you fit with the people in my life. Yet again, everyone loves you and says we're a great match 🥰<br><br>And you absolutely crushed Codenames, winning every game! That's my girl 😍` },
     { word: "STARE", message: `You make it very hard not to stare 😍<br><br>I sometimes look at you and genuinely have a moment of, "How is she actually mine?" You're so beautiful, and somehow your smile, your eyes, your laugh, and who you are all keep getting me.<br><br>I love getting to admire you ❤️` },
+    { word: "EVERY", message: `Day 1 of getting to see you every day for 15+ days! 🥰<br><br>I've been looking forward to this so much: your birthday, Japan, family, good food, adventures, normal moments, and lots of time together.<br><br>I love you, and I'm so grateful we get to experience all of this together ❤️` },
     { word: "H", message: "Refresh page" }
 ];
