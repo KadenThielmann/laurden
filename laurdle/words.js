@@ -91,5 +91,6 @@ export const WORD_BANK = [
     { word: "STARE", message: `You make it very hard not to stare 😍<br><br>I sometimes look at you and genuinely have a moment of, "How is she actually mine?" You're so beautiful, and somehow your smile, your eyes, your laugh, and who you are all keep getting me.<br><br>I love getting to admire you ❤️` },
     { word: "EVERY", message: `Day 1 of getting to see you every day for 15+ days! 🥰<br><br>I've been looking forward to this so much: your birthday, Japan, family, good food, adventures, normal moments, and lots of time together.<br><br>I love you, and I'm so grateful we get to experience all of this together ❤️` },
     { word: "BIRTH", message: `I'm so excited to celebrate you today!! 🥰<br><br>Your life is such a gift to me and to the people around you. Your joy, care, beauty, and faith shine so brightly.<br><br>I feel incredibly blessed that I get to be part of celebrating you. Happy birthday to my 1:3 ❤️` },
+    { word: "LASER", message: `Activate was so much fun!<br><br>I loved celebrating you all day, and getting time to have fun with Sydney and Abbey. Your birthday was already special because it was yours, but seeing more of your family and getting to make memories together made it even better ❤️` },
     { word: "H", message: "Refresh page" }
 ];
