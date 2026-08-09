@@ -101,5 +101,6 @@ export const WORD_BANK = [
     { word: "CASTLE", message: `It was so much fun exploring with you and my family yesterday! We got to see and experience things you can only find in Japan.<br><br>It was especially amazing seeing you interact with the boys—they already love and respect you so much.<br><br>I'm so grateful for the memories we’re making together and so excited for all the memories still to come ❤️` },
     { word: "SLIDE", message: `Playing with everyone has been so much fun! Judah absolutely loves doing anything with you, and I don’t think he’ll ever get tired of going down the slide with you.<br><br>You’re the best future aunt the boys could ask for ❤️` },
     { word: "SOCCER", message: `New core memory ❤️<br><br>Lauren is a lot better at soccer than Tito?? 🥰<br><br>I’m sooo loving getting to watch you be such a fun, loving aunt to the boys. They already love you so much ❤️` },
+    { word: "ZEKIE", message: `Did you get this in one?<br><br>Zekie is already running to you to play 🥹<br><br>Thank you for pouring so much energy and love into the boys ❤️ We only have two days left with them, and I’m so grateful for all these memories we’re getting to make together.` },
     { word: "H", message: "Refresh page" }
 ];
