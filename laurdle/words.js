@@ -104,5 +104,6 @@ export const WORD_BANK = [
     { word: "STREAK", message: `Our in-person weekend streak isn't ending after all 🥰<br><br>I'm so happy I get to sneak in some extra time with you today—even if it means being your chauffeur 😂<br><br>I can't wait to see you! ❤️` },
     { word: "PURPLE", message: `I'm so glad you and Abbey had an amazing time last night and got to experience that together!<br><br>I love seeing you get excited about the things you love, and I'm really happy you got to share such a special night with her.<br><br>I purple you 💜<br><br>P.S. You always look amazing in purple 😍` },
     { word: "TEDDY", message: `Meeting Teddy was definitely a highlight yesterday 🥹🐶<br><br>I loved having another simple evening with you and your family—dinner, visiting the dogs, watching a movie, and just hanging out together.<br><br>I love how ordinary, real-life evenings feel so fun and natural with you ❤️` },
+    { word: "CRUSH", message: `We crushed that escape room! And every other escape room we've done! 🥰<br><br>We make such a great team and complement each other so well. I love how we notice different things, bring different strengths, and usually figure out every challenge together.<br><br>Also... I've got a HUGE crush on you 😍❤️` },
     { word: "H", message: "Refresh page" }
 ];
