@@ -107,5 +107,6 @@ export const WORD_BANK = [
     { word: "CRUSH", message: `We crushed that escape room! And every other escape room we've done! 🥰<br><br>We make such a great team and complement each other so well. I love how we notice different things, bring different strengths, and usually figure out every challenge together.<br><br>Also... I've got a HUGE crush on you 😍❤️` },
     { word: "BINGO", message: `It was another great day with you 🥰<br><br>It was really nice getting to spend Megan and Devin's last available evening with them... again 😂<br><br>Unfortunately we didn't get a bingo, but I definitely won with you ❤️` },
     { word: "BLESS", message: `It was so meaningful to be able to sit down with your parents, get so much uninterrupted time together, and receive their blessing to marry you 🥹<br><br>I already knew how blessed I am to have you, but yesterday made me even more grateful for you and the family I'm getting to become part of.<br><br>I'm so excited for everything God has ahead for us ❤️` },
+    { word: "OLIVER", message: `Praise God for a successful delivery of baby Oliver! 🙏🏻❤️<br><br>He's such a cutie, and he's already surrounded by such a wonderful family and support system 🥹<br><br>Praying for a continued and speedy recovery for Megan 🙏🏻` },
     { word: "H", message: "Refresh page" }
 ];
