@@ -109,5 +109,6 @@ export const WORD_BANK = [
     { word: "BLESS", message: `It was so meaningful to be able to sit down with your parents, get so much uninterrupted time together, and receive their blessing to marry you 🥹<br><br>I already knew how blessed I am to have you, but yesterday made me even more grateful for you and the family I'm getting to become part of.<br><br>I'm so excited for everything God has ahead for us ❤️` },
     { word: "OLIVER", message: `Praise God for a successful delivery of baby Oliver! 🙏🏻❤️<br><br>He's such a cutie, and he's already surrounded by such a wonderful family and support system 🥹<br><br>Praying for a continued and speedy recovery for Megan 🙏🏻` },
     { word: "STEAMY", message: `😏<br><br>Does this one even need words?` },
+    { word: "NEEDS", message: `I really appreciate you intentionally meeting my needs. I feel very cared for by you 🥰<br><br>I love that we can be honest about what helps us feel loved, connected, and cared for, and that we're both willing to listen, communicate, and keep growing in how we show up for each other.<br><br>I'm so grateful I get to keep learning you and loving you better ❤️` },
     { word: "H", message: "Refresh page" }
 ];
