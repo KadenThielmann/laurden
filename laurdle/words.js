@@ -117,5 +117,6 @@ export const WORD_BANK = [
     { word: "CLUBS", message: `The hunt for golf clubs and figuring out right vs left begins! 😂⛳️<br><br>I'm looking forward to learning to golf with you and figuring it all out together.<br><br>With how quickly you learn and pick things up, I know you'll do great... I'm more worried about myself 😅` },
     { word: "POSTED", message: `We posted each other!! 🥰<br><br>I love getting to show off the beautiful girl I'm so in love with 😍<br><br>And that was only one part of yesterday—from learning how bad we are at golf 😂 to Bible study together and watching you step boldly out of your comfort zone in faith ❤️` },
     { word: "MOMENT", message: `Today I just want to enjoy every moment with you 🥰<br><br>I want to soak in the conversations, laughs, hugs, little looks, ordinary moments, and whatever else today brings.<br><br>I'm so grateful we get this day together, and I want to be fully present and enjoy every bit of you and us ❤️` },
+    { word: "KEEPER", message: `Yesterday we determined that a LOT of my clothes were not keepers 😂<br><br>Thank you for spending so much time going through everything with me. Somehow even sorting through an entire wardrobe with you was fun, and my closet is much better for it.<br><br>Fortunately, there was one very obvious keeper in the room 🥰❤️` },
     { word: "H", message: "Refresh page" }
 ];
