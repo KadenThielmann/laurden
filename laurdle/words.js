@@ -118,5 +118,6 @@ export const WORD_BANK = [
     { word: "POSTED", message: `We posted each other!! 🥰<br><br>I love getting to show off the beautiful girl I'm so in love with 😍<br><br>And that was only one part of yesterday—from learning how bad we are at golf 😂 to Bible study together and watching you step boldly out of your comfort zone in faith ❤️` },
     { word: "MOMENT", message: `Today I just want to enjoy every moment with you 🥰<br><br>I want to soak in the conversations, laughs, hugs, little looks, ordinary moments, and whatever else today brings.<br><br>I'm so grateful we get this day together, and I want to be fully present and enjoy every bit of you and us ❤️` },
     { word: "KEEPER", message: `Yesterday we determined that a LOT of my clothes were not keepers 😂<br><br>Thank you for spending so much time going through everything with me. Somehow even sorting through an entire wardrobe with you was fun, and my closet is much better for it.<br><br>Fortunately, there was one very obvious keeper in the room 🥰❤️` },
+    { word: "POSING", message: `Let me know when you get this and I'll send you today's gym pose 😉<br><br>Thank you for all your advice and for helping me look and feel good!<br><br>I love how you notice all the little details ❤️` },
     { word: "H", message: "Refresh page" }
 ];
