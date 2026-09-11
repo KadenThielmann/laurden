@@ -120,5 +120,6 @@ export const WORD_BANK = [
     { word: "KEEPER", message: `Yesterday we determined that a LOT of my clothes were not keepers 😂<br><br>Thank you for spending so much time going through everything with me. Somehow even sorting through an entire wardrobe with you was fun, and my closet is much better for it.<br><br>Fortunately, there was one very obvious keeper in the room 🥰❤️` },
     { word: "POSING", message: `Let me know when you get this and I'll send you today's gym pose 😉<br><br>Thank you for all your advice and for helping me look and feel good!<br><br>I love how you notice all the little details ❤️` },
     { word: "VOICE", message: `I'm so excited to sing with you this weekend! A week without hearing you sing is too much! I LOVE your voice!! 😍<br><br>And hearing your voice on FaceTime every night is always a highlight and a great way to end the day ❤️` },
+    { word: "LOVELY", message: `Our Bible study emphasized focusing on the good and the blessings in our lives. One of the things we're told to think about felt particularly easy for me 😉❤️<br><br>I can't wait to see my lovely girl today!! 🥰<br><br>One thing that probably won't be lovely is the sight of us golfing 😂⛳️` },
     { word: "H", message: "Refresh page" }
 ];
