@@ -121,5 +121,6 @@ export const WORD_BANK = [
     { word: "POSING", message: `Let me know when you get this and I'll send you today's gym pose 😉<br><br>Thank you for all your advice and for helping me look and feel good!<br><br>I love how you notice all the little details ❤️` },
     { word: "VOICE", message: `I'm so excited to sing with you this weekend! A week without hearing you sing is too much! I LOVE your voice!! 😍<br><br>And hearing your voice on FaceTime every night is always a highlight and a great way to end the day ❤️` },
     { word: "LOVELY", message: `Our Bible study emphasized focusing on the good and the blessings in our lives. One of the things we're told to think about felt particularly easy for me 😉❤️<br><br>I can't wait to see my lovely girl today!! 🥰<br><br>One thing that probably won't be lovely is the sight of us golfing 😂⛳️` },
+    { word: "SWING", message: `You were crushing it at golf!! ⛳️😍<br><br>Almost every shot you took was perfectly straight and you were getting a nice pop too! I was impressed 🥰<br><br>And hanging out at Syd and Aidan's was a lot of fun! I loved going through the songs and singing together ❤️` },
     { word: "H", message: "Refresh page" }
 ];
