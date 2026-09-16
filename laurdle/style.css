@@ -179,8 +179,9 @@ button[data-key="Backspace"] {
 }
 
 #modal button {
-    margin-top: 20px;
+    margin-top: 12px;
     padding: 10px 20px;
+    height: 58px;
     background-color: var(--correct);
     width: 100%;
 }
@@ -289,4 +290,19 @@ button.absent { background-color: var(--absent); opacity: 0.5; }
 @keyframes playSlide3 {
     0%, 61.11%, 100% { opacity: 0; z-index: 1; }
     66.67%, 94.44% { opacity: 1; z-index: 2; }
+}
+
+/* --- MODAL COUNTDOWN BUTTON --- */
+.modal-countdown-link {
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.modal-countdown-link:hover {
+    transform: scale(1.02);
+    background-color: rgba(181, 159, 59, 0.15) !important;
+    color: #ffffff !important;
+}
+
+.modal-countdown-link:active {
+    transform: scale(0.98);
 }

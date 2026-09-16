@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Laurden · 08 · 13 · 27</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="/">Laurden</a>
+    <a href="/laurdle/">Laurdle</a>
+  </header>
+
+  <main>
+    <!-- 1. Unified Hero Countdown -->
+    <section class="countdown-hero" aria-label="Wedding Countdown">
+      <div class="target-date">08 · 13 · 27</div>
+
+      <div class="days-wrapper">
+        <span id="days-val" class="days-value">---</span>
+        <span class="days-label">Days</span>
+      </div>
+
+      <div class="sub-countdown" aria-label="Remaining hours, minutes, and seconds">
+        <div id="hms-val" class="sub-numbers">00 : 00 : 00</div>
+        <div class="sub-labels">
+          <span>Hrs</span>
+          <span class="separator">·</span>
+          <span>Min</span>
+          <span class="separator">·</span>
+          <span>Sec</span>
+        </div>
+      </div>
+
+      <p class="phrase">until we get married <span class="heart" aria-hidden="true">❤️</span></p>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </section>
+
+    <!-- 2. Milestone Timeline -->
+    <section class="timeline-section" aria-label="Journey Milestones">
+      <ol class="timeline" id="milestones-list"></ol>
+    </section>
+  </main>
+
+  <footer>
+    <span>L &amp; K</span>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

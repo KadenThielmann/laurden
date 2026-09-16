@@ -398,10 +398,11 @@ function showModal(isWin) {
 
         ${chartHTML}
         <div style="margin: 20px 0; border-top: 1px solid #3a3a3c; padding-top: 15px;">
-    <p style="font-size: 0.7rem; color: #aaa; text-transform: uppercase; letter-spacing: 1px;">Next Laurdle In</p>
-    <div id="next-word-timer" style="font-size: 1.5rem; font-weight: bold;">--:--:--</div>
-</div>
-        <button id="share-btn" style="background-color: var(--correct); color: white; border: none; padding: 14px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%; margin-top: 20px;">SHARE RESULT 📋</button>
+            <p style="font-size: 0.7rem; color: #aaa; text-transform: uppercase; letter-spacing: 1px;">Next Laurdle In</p>
+            <div id="next-word-timer" style="font-size: 1.5rem; font-weight: bold;">--:--:--</div>
+        </div>
+        <button id="share-btn" style="background-color: var(--correct); color: white; border: none; padding: 0 14px; height: 58px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%; margin-top: 20px; font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase;">SHARE RESULT 📋</button>
+        <a href="/countdown/" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; background-color: var(--correct); color: white; border: none; height: 58px; padding: 0 14px; border-radius: 4px; font-weight: bold; cursor: pointer; width: 100%; margin-top: 12px; text-decoration: none; font-size: 0.9rem; letter-spacing: 1.5px; text-transform: uppercase; -webkit-tap-highlight-color: transparent;">08 · 13 · 27 ❤️</a>
     `;
 
     document.getElementById('share-btn').addEventListener('click', () => {
