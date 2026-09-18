@@ -127,5 +127,6 @@ export const WORD_BANK = [
     { word: "POTATO", message: `You absolutely crushed it with the potatoes! I know it's a simple recipe, but clearly you did it well! And you even improvised a way to shake them evenly 😍<br><br>I can't wait to try them and more of your cooking! And I'm excited to make you some more of my dishes.<br><br>But I'm most excited for getting to regularly cook with you and for you ❤️` },
     { word: "COUNT", message: `I made something for us to watch the days, hours, and milestones tick by as we get closer to our day ❤️<br><br>There's a new button below! 🥰` },
     { word: "ALMOST", message: `It's almost time for us to see each other! I've been missing you sooo much!❤️<br><br>And every one of these "almosts" is one less almost before we don't have to spend our weeks counting down to seeing each other anymore 🥹<br><br>I'm so excited for another weekend together!! ❤️` },
+    { word: "PUZZLE", message: `You flew through that puzzle yesterday!! Very impressive 😍<br><br>It's actually so attractive how intelligent you are and how quickly you pick up on things!<br><br>And I love that we were both talking about each other at the same time yesterday ❤️<br><br>Alsooo, I can't wait to see you today!` },
     { word: "H", message: "Refresh page" }
 ];
