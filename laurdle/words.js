@@ -131,5 +131,6 @@ export const WORD_BANK = [
     { word: "ROOKIE", message: `Let's see how two golf rookies do on the big course 😂⛳️<br><br>I'm impressed at how much you've improved after only two times golfing!<br><br>You pick things up ridiculously quickly, so I'm excited to see how much better you get again today 😍<br><br>And either way, I know it'll be such a fun day with you, Sydney, and Aidan ❤️` },
     { word: "CLUTCH", message: `The rookie clutched up yesterday!<br><br>We used at least one of your drives, mid-range shots, AND putts! I was so impressed with how well you did! 😍<br><br>It was a tiring day but such a good one. I loved getting to spend the day with you, Sydney, and Aidan ❤️` },
     { word: "LOCKED", message: `I've been working on something... and unfortunately, you're locked in.<br><br>Think you can <a href="https://laurden.ca/act1/" style="color: inherit; text-decoration: none;">escape</a>? 🔒` },
+    { word: "THIEF", message: `There's a thief! 👀<br><br>What did they steal?` },
     { word: "H", message: "Refresh page" }
 ];
