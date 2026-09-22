@@ -4,7 +4,7 @@ window.PUZZLE_CONFIG = {
   shelfCode: "4268953",
   lockCode: "59317",
   actTwoCode: "cheese",
-  actTwoUrl: "act-2/",
+  actTwoUrl: "../act-2/",
   symbolA: "⟐",
   photo: "gingerbread.png",
 };

@@ -1,17 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#131c23" />
-    <title>Laurden · Act One</title>
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body>
-    <header><a href="../">LAURDEN</a><span>ACT I</span></header>
-    <main id="app"></main>
-    <footer>A little closer.</footer>
-    <script src="../config.js"></script>
-    <script src="../app.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laurden · Escape</title>
+  <script>
+    const destination = new URL("../../Escape/act-1/lock/", window.location.href);
+    destination.search = window.location.search;
+    destination.hash = window.location.hash;
+    window.location.replace(destination.href);
+  </script>
+</head>
+<body><p><a href="../../Escape/act-1/lock/">Continue to Escape</a></p></body>
 </html>

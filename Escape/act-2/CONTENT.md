@@ -57,7 +57,7 @@ Only the fixed clue outside the dictionary contains a definition. Inside are wor
 
 ## Progression and hosting
 
-Act 1's `cheese` gate opens `act-2/`. Each Act 2 room has a real `index.html` and URL: `act-2/`, `act-2/jigsaw/`, `act-2/weighing/`, `act-2/audio/`, `act-2/bananagrams/`, `act-2/mirrors/`, and `act-2/dictionary/`. Successful completion reveals Continue to the next page. The dictionary goes directly to `act-2/complete/`; entering `crash` there opens `act-3/`.
+Act 1's `cheese` gate opens the sibling `Escape/act-2/` via `../act-2/`. Each Act 2 room has a real `index.html` and URL: `act-2/`, `act-2/jigsaw/`, `act-2/weighing/`, `act-2/audio/`, `act-2/bananagrams/`, `act-2/mirrors/`, and `act-2/dictionary/`. Successful completion reveals Continue to the next page. The dictionary goes directly to `act-2/complete/`; entering `crash` there opens `act-3/`.
 
 Puzzle state stays in memory while its page is open, matching Act 1. Reloading restarts the current puzzle, rather than the whole act. No new account or save architecture is used. Direct page access follows Act 1's static-page convention.
 
