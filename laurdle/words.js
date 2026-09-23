@@ -132,5 +132,6 @@ export const WORD_BANK = [
     { word: "CLUTCH", message: `The rookie clutched up yesterday!<br><br>We used at least one of your drives, mid-range shots, AND putts! I was so impressed with how well you did! 😍<br><br>It was a tiring day but such a good one. I loved getting to spend the day with you, Sydney, and Aidan ❤️` },
     { word: "LOCKED", message: `I've been working on something... and unfortunately, you're locked in.<br><br>Think you can <a href="https://laurden.ca/act1/" style="color: inherit; text-decoration: none;">escape</a>? 🔒` },
     { word: "THIEF", message: `There's a thief! 👀<br><br>What did they steal?` },
+    { word: "BRAIN", message: `Our brains were definitely being tested yesterday!<br><br>We were both emotional at points, but I really appreciated how well we communicated and made sure it didn't turn into us getting heated with each other.<br><br>I love that even when we're seeing something differently or feeling annoyed, we can slow down, talk it through, and still be on the same team ❤️` },
     { word: "H", message: "Refresh page" }
 ];
