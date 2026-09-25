@@ -134,5 +134,6 @@ export const WORD_BANK = [
     { word: "THIEF", message: `There's a thief! 👀<br><br>What did they steal?` },
     { word: "BRAIN", message: `Our brains were definitely being tested yesterday!<br><br>We were both emotional at points, but I really appreciated how well we communicated and made sure it didn't turn into us getting heated with each other.<br><br>I love that even when we're seeing something differently or feeling annoyed, we can slow down, talk it through, and still be on the same team ❤️` },
     { word: "GIFTED", message: `You are so gifted at working with kids ❤️<br><br>I love hearing about the strategies you've been using and succeeding with, how much more confident you've become, and how naturally you trust your own judgement and abilities now. You've grown so much, and you're SO good at what you do.<br><br>Watching you step into your confidence in something you're already naturally good at is extremely attractive 😍` },
+    { word: "HAUNT", message: `I get to see you today!! 😍<br><br>And we get to start off a long weekend together at Halloween Haunt 👻🎢<br><br>I'm so excited for tonight and for all the extra time we get to spend together this weekend, with friends, making meals, doing our Bible study, cuddling, and just being together ❤️` },
     { word: "H", message: "Refresh page" }
 ];
