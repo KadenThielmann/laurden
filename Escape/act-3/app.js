@@ -176,7 +176,7 @@ function layers() {
     ),
     s = R.state;
   R.frame(
-    '<div class="disc-frame"><div class="frame-notch" aria-hidden="true">◆</div><div class="disc-stack"><img id="bottom-disc" alt="Lower patterned transparency" draggable="false"><img id="top-disc" alt="Upper patterned transparency" draggable="false"></div><button class="disc-rim lower" id="rim-0" aria-label="Drag lower disc rim"><span>Lower rim</span></button><button class="disc-rim upper" id="rim-1" aria-label="Drag upper disc rim"><span>Upper rim</span></button></div><div class="tools disc-tools"><div>Lower disc <button data-layer="0" data-step="-1" aria-label="Turn lower disc counterclockwise">↶</button><button data-layer="0" data-step="1" aria-label="Turn lower disc clockwise">↷</button></div><div>Upper disc <button data-layer="1" data-step="-1" aria-label="Turn upper disc counterclockwise">↶</button><button data-layer="1" data-step="1" aria-label="Turn upper disc clockwise">↷</button></div></div>' +
+    '<div class="disc-frame"><div class="disc-stack"><img id="bottom-disc" alt="Lower patterned transparency" draggable="false"><img id="top-disc" alt="Upper patterned transparency" draggable="false"></div><button class="disc-rim lower" id="rim-0" aria-label="Drag lower disc rim"><span>Lower rim</span></button><button class="disc-rim upper" id="rim-1" aria-label="Drag upper disc rim"><span>Upper rim</span></button></div><div class="tools disc-tools"><div>Lower disc <button data-layer="0" data-step="-1" aria-label="Turn lower disc counterclockwise">↶</button><button data-layer="0" data-step="1" aria-label="Turn lower disc clockwise">↷</button></div><div>Upper disc <button data-layer="1" data-step="-1" aria-label="Turn upper disc counterclockwise">↶</button><button data-layer="1" data-step="1" aria-label="Turn upper disc clockwise">↷</button></div></div>' +
       '<div id="lock"></div>',
   );
   $("#bottom-disc").src = asset("assets/layer-bottom.png");
@@ -280,7 +280,7 @@ async function chains() {
   const R = room(3, 4, { attached: {} }, next),
     s = R.state;
   R.frame(
-    '<p>Swing each strip onto a hook on the opposite side.</p><svg id="chain-board" viewBox="0 0 1000 2100" role="group" aria-label="Eight pivoting wooden strips"></svg>' +
+    '<svg id="chain-board" viewBox="0 0 1000 2100" role="group" aria-label="Eight pivoting wooden strips"></svg>' +
       '<div id="lock"></div>',
   );
   let tape;

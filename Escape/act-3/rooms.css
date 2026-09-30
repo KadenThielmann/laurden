@@ -251,13 +251,6 @@
   image-rendering: pixelated;
   pointer-events: none;
 }
-.frame-notch {
-  position: absolute;
-  top: -30px;
-  left: 47%;
-  color: var(--gold);
-  z-index: 5;
-}
 .disc-rim {
   position: absolute;
   padding: 0;
@@ -295,15 +288,6 @@
   right: -10%;
   background: #687f82;
   color: white;
-}
-.disc-rim:after {
-  content: "";
-  position: absolute;
-  top: 2%;
-  left: 49%;
-  width: 4px;
-  height: 12px;
-  background: #e8ba76;
 }
 .disc-tools > div {
   display: flex;

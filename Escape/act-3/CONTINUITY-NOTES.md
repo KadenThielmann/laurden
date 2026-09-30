@@ -33,6 +33,8 @@ The upload does not contain these Act 3 phone recordings. Place them in `act-3/a
 
 The phone keypad and book-code gate work, but the spoken clue cannot play until those files are supplied. Failed playback now gives a brief connection message instead of exposing development filenames.
 
-The final prize is still the explicit placeholder supplied in `act-4/content.js`. No replacement prize, codes, recordings or clue answers were invented.
+The latest requested changes replace the Act 4 message room with a six-second memory challenge and the archive with a new dispatch-order puzzle. The chain instruction and layer alignment ticks have been removed. The final page now congratulates the player on escaping their first Laurden escape room.
 
-All existing puzzle codes, authored content and rule validators were preserved.
+The five recording scripts and the physical-book setup are in `PHONE-SCRIPTS.txt`. No audio has been generated.
+
+The original presentation checks above describe the earlier review. `../act-4/UPDATE-NOTES.txt` documents the newly replaced rooms.

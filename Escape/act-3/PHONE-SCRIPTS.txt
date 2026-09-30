@@ -1,0 +1,33 @@
+ACT 3 — PHONE RECORDING SCRIPTS
+
+Record each line as its own MP3, in normal forward speech. Use a relaxed,
+conversational delivery and leave a short pause before and after the line.
+
+Place the five files in Escape/act-3/assets/ with exactly these filenames.
+The existing phone already uses them; no code changes are needed.
+Pressing 0 replays the last clip, so it needs no separate recording.
+
+phone-greeting.mp3 — when she picks up the receiver
+"Hello? Lauren? Oh, hi. Give me a second—I've got a book open.
+What would you like to ask?"
+
+phone-reading.mp3 — "What are you doing?"
+"I'm reading. I found myself back with those books from a while ago."
+
+phone-book.mp3 — "Which book?"
+"The last one. It's been sitting on the shelf with the others,
+so I thought I'd pick it up again."
+
+phone-repeat.mp3 — "Haven't you read that already?"
+"Oh, plenty. Upwards of four hundred and twenty-seven times, I'd say.
+You'd think I'd have found everything in it by now."
+
+phone-unrecognized.mp3 — an unrecognized question key
+"Sorry, I didn't catch that. Try one of the questions—or press zero
+to hear me again."
+
+OWNER SETUP — DO NOT RECORD THIS SECTION
+The spoken clues lead back to the six books from Act 1, then the last book,
+then page 427. Put the existing door code 36794 on that physical page.
+Keep "four hundred and twenty-seven" spoken naturally; do not say
+"page 427" or read the door code in a recording.

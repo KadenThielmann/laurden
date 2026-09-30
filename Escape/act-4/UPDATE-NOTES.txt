@@ -1,0 +1,42 @@
+REQUESTED LATER-ACT UPDATE
+
+Act 1, Act 2, the Act 3 redirect and shared files are unchanged.
+
+Act 3
+- Removed the chain instruction sentence.
+- Removed the layer alignment marks.
+- Added five phone recording scripts in act-3/PHONE-SCRIPTS.txt.
+  Record them and put the MP3s in act-3/assets/ as instructed.
+
+Act 4 — message/
+- Replaced with a wooden 3x3 memory board and nine requested items.
+- Lift cover reveals a randomized layout for six seconds.
+- Reference is removed when the cover closes.
+- Rebuild by dragging or tapping the shuffled items.
+- Checks only once all nine spaces are filled.
+- An incorrect arrangement gives "Not quite." and automatically restarts
+  with a different randomized layout.
+- A correct arrangement unlocks Continue to alcoves/.
+- No replay button or count of correct placements.
+
+Act 4 — archive/
+- New dispatch-record ordering puzzle, built independently of the old one.
+- Tap two records or drag one onto another to exchange their positions.
+- The clue constraints give exactly one departure order:
+  Bell, Bridge, Tower, Garden, Orchard, Harbour.
+- Filing marks, read in that order: 482691.
+- Entering that combination unlocks Continue to complete/.
+
+Act 4 — prize/
+- Congratulations!
+- You have escaped your first Laurden escape room!
+
+Both new rooms use the existing room wrapper, numeric lock where applicable,
+restrained feedback, Continue links and per-page reset behaviour.
+
+VERIFICATION
+Memory timing measured at 6007 ms. Wrong and correct arrangements, full
+restart, single completion, reference concealment, locks, links and 320px
+layouts passed browser checks. Native drag, outside drop, tap placement
+and occupied-slot swapping passed. All 720 dispatch permutations were
+checked; exactly one satisfies the clues.

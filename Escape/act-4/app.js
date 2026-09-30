@@ -1,3 +1,5 @@
+import { mountMemory } from "./memory.js";
+import { mountArchive } from "./archive.js";
 import { validAlcoves } from "./core.js";
 import { content as C } from "./content.js";
 import {
@@ -213,34 +215,7 @@ function gingerbread() {
   lock($("#lock"), C.gingerbreadCode, R.complete, { opened: R.state.solved });
 }
 function message() {
-  const R = room(4, 2, { note: 0 }, next),
-    s = R.state;
-  R.frame(
-    '<div class="tray-scene"><div class="shallow-tray"></div><button id="folded-note" aria-label="Lift folded note"></button></div><div id="lock"></div>',
-  );
-  function draw() {
-    const b = $("#folded-note");
-    b.className = `folded-note stage-${s.note}`;
-    b.setAttribute(
-      "aria-label",
-      s.note === 0
-        ? "Lift folded note"
-        : s.note === 1
-          ? "Unfold note"
-          : "Fold note",
-    );
-    b.innerHTML =
-      s.note === 2
-        ? `<span class="letter">${esc(C.handoff.recipient)},<br><br>${esc(C.handoff.body).replace(/\n/g, "<br>")}</span>`
-        : '<span aria-hidden="true">⌑</span>';
-  }
-  $("#folded-note").onclick = () => {
-    s.note = s.note === 2 ? 1 : s.note + 1;
-    draw();
-    if (s.note === 2) reveal($("#folded-note"));
-  };
-  draw();
-  lock($("#lock"), C.handoff.code, R.complete, { opened: s.solved });
+  mountMemory(next);
 }
 function alcoves() {
   const R = room(
@@ -376,27 +351,7 @@ function bug() {
   draw();
 }
 function archive() {
-  const R = room(4, 5, { open: [] }, next),
-    s = R.state;
-  R.frame(
-    `<div class="badges">${Object.entries(C.murder.badges)
-      .map(
-        ([name, id]) =>
-          `<div class="badge"><span class="badge-portrait" aria-hidden="true">◈</span><strong>${name}</strong><span>${id}</span></div>`,
-      )
-      .join(
-        "",
-      )}</div><div class="evidence-desk">${C.murder.evidence.map(([title, body], i) => `<details class="document" data-evidence="${i}"><summary>${esc(title)}</summary><div class="paper-text">${esc(body)}</div></details>`).join("")}</div><p class="extraction">STAFF IDENTIFICATION</p><div id="lock"></div>`,
-  );
-  $$("[data-evidence]").forEach((el) => {
-    el.open = s.open.includes(+el.dataset.evidence);
-    el.ontoggle = () => {
-      s.open = $$("[data-evidence]")
-        .filter((e) => e.open)
-        .map((e) => +e.dataset.evidence);
-    };
-  });
-  lock($("#lock"), C.murder.code, R.complete, { opened: s.solved });
+  mountArchive(next);
 }
 function finale() {
   const R = room(4, 6, { attempt: [] }, next, true),
