@@ -141,5 +141,6 @@ export const WORD_BANK = [
     { word: "GROUP", message: `It was really nice getting to meet your MC yesterday and spend the evening there with you ❤️<br><br>I love getting to know more of the people and communities that are part of your life, and I love that you felt more comfortable with me being there 🥰<br><br>The whole weekend was sooo good together. This week will be hard, but that's just because I know how good our time together is.<br><br>I'm beyond thankful and blessed that God brought you into my life ❤️` },
     { word: "WRECK", message: `Waves do it. Computers do it. After a long day, you might too.` },
     { word: "CALLS", message: `I love all the random calls we have throughout the day ❤️<br><br>It's been so nice being able to see your face and hear your voice throughout the day plus at night!<br><br>They're some of my favourite parts of each day 🥰` },
+    { word: "SOLVED", message: `You solved the Laurden escape room! 🥳<br><br>And somehow I got the best surprise of the day 😍<br><br>I love that even when we're frustrated or annoyed with each other, we still keep communicating lovingly, trying to understand each other better, and working through the conflict instead of pushing it aside or getting angry.<br><br>I love you ❤️` },
     { word: "H", message: "Refresh page" }
 ];
