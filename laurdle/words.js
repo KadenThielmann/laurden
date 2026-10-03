@@ -142,5 +142,6 @@ export const WORD_BANK = [
     { word: "WRECK", message: `Waves do it. Computers do it. After a long day, you might too.` },
     { word: "CALLS", message: `I love all the random calls we have throughout the day ❤️<br><br>It's been so nice being able to see your face and hear your voice throughout the day plus at night!<br><br>They're some of my favourite parts of each day 🥰` },
     { word: "SOLVED", message: `You solved the Laurden escape room! 🥳<br><br>And somehow I got the best surprise of the day 😍<br><br>I love that even when we're frustrated or annoyed with each other, we still keep communicating lovingly, trying to understand each other better, and working through the conflict instead of pushing it aside or getting angry.<br><br>I love you ❤️` },
+    { word: "SLEEPY", message: `I was so sleepy yesterday that it was kinda sad when you clearly noticed and said I should go to sleep 😴<br><br>But I love that you're always looking for ways to take care of me ❤️<br><br>I hope you slept well too! 🥰` },
     { word: "H", message: "Refresh page" }
 ];
