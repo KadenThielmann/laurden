@@ -143,5 +143,6 @@ export const WORD_BANK = [
     { word: "CALLS", message: `I love all the random calls we have throughout the day ❤️<br><br>It's been so nice being able to see your face and hear your voice throughout the day plus at night!<br><br>They're some of my favourite parts of each day 🥰` },
     { word: "SOLVED", message: `You solved the Laurden escape room! 🥳<br><br>And somehow I got the best surprise of the day 😍<br><br>I love that even when we're frustrated or annoyed with each other, we still keep communicating lovingly, trying to understand each other better, and working through the conflict instead of pushing it aside or getting angry.<br><br>I love you ❤️` },
     { word: "SLEEPY", message: `I was so sleepy yesterday that it was kinda sad when you clearly noticed and said I should go to sleep 😴<br><br>But I love that you're always looking for ways to take care of me ❤️<br><br>I hope you slept well too! 🥰` },
+    { word: "POKER", message: `Poker? You haven't even met her!<br><br>It was such a great evening with your family and Meg, Dev, and Oliver!<br><br>I loved hearing about your day and all of your conversations 🥰<br><br>See you soon for your back massage! ❤️` },
     { word: "H", message: "Refresh page" }
 ];
