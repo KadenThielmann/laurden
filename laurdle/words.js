@@ -149,5 +149,6 @@ export const WORD_BANK = [
     { word: "SHARE", message: `Thank you for sharing how you were feeling with me yesterday ❤️<br><br>I really appreciate that even though you didn't like what you were feeling toward me, you still trusted me enough to tell me. You never have to hide how you're feeling from me just because you wish you weren't feeling it.<br><br>I love you, and I'm so excited to see you for breakfast today, even if it's only for a little while 🥰❤️` },
     { word: "TREAT", message: `Yesterday morning was such a treat 🥰<br><br>I was already excited just to get a little time with you, and somehow we even got porch time?! 😍<br><br>I loved getting to have breakfast, talk, and just be together for the morning ❤️` },
     { word: "BONUS", message: `Yesterday was another little bonus visit 🥰<br><br>Even though it was short, I loved getting to have lunch with you and cuddle ❤️<br><br>And I get to see you AGAIN today for Bible study!! 😍` },
+    { word: "WAITED", message: `We've been waiting for this day for a long time!!<br><br>I'm so excited to finally meet your mom's side of the family and get to know some more people in your life ❤️<br><br>We've waited so long for this, which makes today feel even more special.` },
     { word: "H", message: "Refresh page" }
 ];
