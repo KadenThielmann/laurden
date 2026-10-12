@@ -151,5 +151,6 @@ export const WORD_BANK = [
     { word: "BONUS", message: `Yesterday was another little bonus visit 🥰<br><br>Even though it was short, I loved getting to have lunch with you and cuddle ❤️<br><br>And I get to see you AGAIN today for Bible study!! 😍` },
     { word: "WAITED", message: `We've been waiting for this day for a long time!!<br><br>I'm so excited to finally meet your mom's side of the family and get to know some more people in your life ❤️<br><br>We've waited so long for this, which makes today feel even more special.` },
     { word: "PASSED", message: `I think I passed the family test (quiz? exam?) yesterday! 😂❤️<br><br>It was really nice finally meeting them!<br><br>And I'm so happy that we still have two more days of weekend together! 🥰` },
+    { word: "MONTHS", message: `Six months with you!! 🥹❤️<br><br>It's crazy how much life we've already packed into half a year together.<br><br>So many dates, adventures, laughs, prayers, conversations, and memories... and somehow I just keep loving time with you more and more 🥰<br><br>Happy six months, my love!! ❤️` },
     { word: "H", message: "Refresh page" }
 ];
