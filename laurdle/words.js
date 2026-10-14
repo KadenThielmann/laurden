@@ -153,5 +153,6 @@ export const WORD_BANK = [
     { word: "PASSED", message: `I think I passed the family test (quiz? exam?) yesterday! 😂❤️<br><br>It was really nice finally meeting them!<br><br>And I'm so happy that we still have two more days of weekend together! 🥰` },
     { word: "MONTHS", message: `Six months with you!! 🥹❤️<br><br>It's crazy how much life we've already packed into half a year together.<br><br>So many dates, adventures, laughs, prayers, conversations, and memories... and somehow I just keep loving time with you more and more 🥰<br><br>Happy six months, my love!! ❤️` },
     { word: "PIECES", message: `I love that you made a puzzle for me!! 🥹❤️<br><br>It was so fun collecting some of the pieces, and I'm excited to find the rest and discover how they all fit together!<br><br>You're so thoughtful! I love this 🥰` },
+    { word: "SNEAK", message: `Your mom was recruited to sneak puzzle pieces into my mailbox?! 😂❤️<br><br>I've had so much fun working through each of the puzzles! I absolutely love that you planned and made all of this for me, and I'm sooo excited to keep collecting the pieces and see how everything comes together 🥰<br><br>And, sidenote, you crushed it in volleyball with your soccer move 😍😂` },
     { word: "H", message: "Refresh page" }
 ];
