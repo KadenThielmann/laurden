@@ -158,5 +158,6 @@ export const WORD_BANK = [
     { word: "LOVED", message: `I had sooo much fun with the puzzle you made for me 🥹❤️<br><br>I looked forward to each new part every day, and I loved working through everything and seeing it all come together.<br><br>You put so much thought and effort into making something special just for me, and it made me feel incredibly loved 🥰<br><br>I'm very excited for our day together today ❤️` },
     { word: "FIANCE", message: `Yesterday was amazing!<br><br>I can't believe I'm your fiancé now!! 😍<br><br>I love that we can do all our planning together now and I don't need to keep secrets anymore!<br><br>I love you so much! You're my fiancée!! ❤️😁` },
     { word: "EMAIL", message: `I think this will be a hard one! Let me know how many guesses it takes you!<br><br>Sorry it took so long but I'm finally going to be helping you organize your email today! ✉️ ❤️<br><br>And I'm sooo looking forward to starting our website with you!! 🥰` },
+    { word: "SHOWED", message: `You showed off yesterday!! It was so nice seeing everyone so happy for you and excited to celebrate you 🥳❤️<br><br>I'm so happy with how this weekend went. God is so so good 🙏🏻🥹<br><br>I'll miss you so much this week!` },
     { word: "H", message: "Refresh page" }
 ];
