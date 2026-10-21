@@ -160,5 +160,6 @@ export const WORD_BANK = [
     { word: "EMAIL", message: `I think this will be a hard one! Let me know how many guesses it takes you!<br><br>Sorry it took so long but I'm finally going to be helping you organize your email today! ✉️ ❤️<br><br>And I'm sooo looking forward to starting our website with you!! 🥰` },
     { word: "SHOWED", message: `You showed off yesterday!! It was so nice seeing everyone so happy for you and excited to celebrate you 🥳❤️<br><br>I'm so happy with how this weekend went. God is so so good 🙏🏻🥹<br><br>I'll miss you so much this week!` },
     { word: "VISIT", message: `I'm coming to visit you today!<br><br>I'm starting to think you left things behind on purpose to get in an extra evening together 😂😘<br><br>I loved seeing all your ring pictures yesterday 😍<br><br>See you this evening!!` },
+    { word: "VOLLEY", message: `Volleyball with you was so much fun! I was nervous but I actually loved it!<br><br>And sitting out for the last games to watch you play was a nice bonus! You were making some great plays and looking great 😍🥵<br><br>I'm looking forward to more volleyball with you in the future and trying to improve! I'll try not to get hurt next time 😂<br><br>Thank you for taking care of me ❤️` },
     { word: "H", message: "Refresh page" }
 ];
