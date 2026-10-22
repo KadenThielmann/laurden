@@ -13,14 +13,10 @@ const MILESTONES = [
     id: "engagement",
     isMysteryEngagement: true,
     icon: "💍",
-    title: "???",
-    subtitle: "",
-    revealed: false
-    // When ready to reveal:
-    // revealed: true,
-    // title: "Engaged",
-    // subtitle: "October 18, 2026",
-    // timestamp: Date.UTC(2026, 9, 18, 20, 0, 0)
+    title: "Engaged",
+    subtitle: "October 16, 2026",
+    revealed: true,
+    timestamp: Date.UTC(2026, 9, 16)
   },
   {
     id: "christmas-2026",
