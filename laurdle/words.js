@@ -164,5 +164,6 @@ export const WORD_BANK = [
     { word: "TEACH", message: `I'm so happy God is opening up opportunities for you to work and get out of the house now!<br><br>I'm excited to hear about how your day goes and how He uses you to care for all the children you come into contact with ❤️<br><br>I'm praying everything goes smoothly over these next two days and that you can adjust quickly to any challenges!` },
     { word: "BLOCK", message: `You played so well yesterday!! Being your first day back didn't slow you down.<br><br>You took my words seriously getting all those blocks! 😂❤️<br><br>It's so attractive how good you are at sports and basically anything you try 😍` },
     { word: "INJURY", message: `This was not our week for injuries! 🤕<br><br>Praying your ankle heals quickly!<br><br>I'm glad you were able to get through your workday yesterday with all the standing and moving around.<br><br>You get unlimited piggyback rides this weekend! ❤️` },
+    { word: "PUBLIC", message: `Posted has been used so let's go with public!<br><br>We're engaged and the world knows it!! 💍<br><br>I love the caption you thought of! That's my goal and intention ❤️` },
     { word: "H", message: "Refresh page" }
 ];
