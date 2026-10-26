@@ -165,5 +165,6 @@ export const WORD_BANK = [
     { word: "BLOCK", message: `You played so well yesterday!! Being your first day back didn't slow you down.<br><br>You took my words seriously getting all those blocks! 😂❤️<br><br>It's so attractive how good you are at sports and basically anything you try 😍` },
     { word: "INJURY", message: `This was not our week for injuries! 🤕<br><br>Praying your ankle heals quickly!<br><br>I'm glad you were able to get through your workday yesterday with all the standing and moving around.<br><br>You get unlimited piggyback rides this weekend! ❤️` },
     { word: "PUBLIC", message: `Posted has been used so let's go with public!<br><br>We're engaged and the world knows it!! 💍<br><br>I love the caption you thought of! That's my goal and intention ❤️` },
+    { word: "WINNER", message: `Everyone we wanted to win won last week! And we're now the only two undefeated 💪🏻<br><br>Outside of hockey, I'm certainly a winner 😍🥵❤️` },
     { word: "H", message: "Refresh page" }
 ];
