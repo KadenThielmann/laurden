@@ -166,5 +166,6 @@ export const WORD_BANK = [
     { word: "INJURY", message: `This was not our week for injuries! 🤕<br><br>Praying your ankle heals quickly!<br><br>I'm glad you were able to get through your workday yesterday with all the standing and moving around.<br><br>You get unlimited piggyback rides this weekend! ❤️` },
     { word: "PUBLIC", message: `Posted has been used so let's go with public!<br><br>We're engaged and the world knows it!! 💍<br><br>I love the caption you thought of! That's my goal and intention ❤️` },
     { word: "WINNER", message: `Everyone we wanted to win won last week! And we're now the only two undefeated 💪🏻<br><br>Outside of hockey, I'm certainly a winner 😍🥵❤️` },
+    { word: "INCRED", message: `You are incredible in so many ways. Your ability to remember song lyrics, your positivity, your intelligence, your looks 🥵, your dedication.<br><br>You constantly have me thinking "literally how?" ❤️` },
     { word: "H", message: "Refresh page" }
 ];
