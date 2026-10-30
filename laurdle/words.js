@@ -169,5 +169,6 @@ export const WORD_BANK = [
     { word: "INCRED", message: `You are incredible in so many ways. Your ability to remember song lyrics, your positivity, your intelligence, your looks 🥵, your dedication.<br><br>You constantly have me thinking "literally how?" ❤️` },
     { word: "WAIST", message: `I think this one speaks for itself 🥵😍<br><br>The dress you choose is going to look sooo good on you and highlight all your incred features beautifully!<br><br>Is this the word you were going to guess yesterday if it were 5 letters?` },
     { word: "IMPACT", message: `One thing I greatly admire about you is the impact you have on the children you work with. You have such a natural ability to make them feel safe, loved, understood, and cared for.<br><br>Even when you're only with a child for a day or two, you're making a difference.<br><br>I love seeing how God has gifted you in this area and how much you've grown in confidence as you use those gifts ❤️` },
+    { word: "FAVOUR", message: `It's so great seeing how God continues to show you favour at work! 🥹❤️<br><br>He has lined up such great situations for you, and He is clearly moving throughout your days. Everything has been going better than you expected 🙏🏻<br><br>I'm so proud of you, and I can't wait to see you this evening ❤️` },
     { word: "H", message: "Refresh page" }
 ];
