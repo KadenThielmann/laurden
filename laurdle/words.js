@@ -172,5 +172,6 @@ export const WORD_BANK = [
     { word: "FAVOUR", message: `It's so great seeing how God continues to show you favour at work! 🥹❤️<br><br>He has lined up such great situations for you, and He is clearly moving throughout your days. Everything has been going better than you expected 🙏🏻<br><br>I'm so proud of you, and I can't wait to see you this evening ❤️` },
     { word: "SCARY", message: `Thank you for watching a scary movie even though you didn't really want to.<br><br>Scary movies aren't my top choice but I know that it was meaningful for Abbey that we watched together 🥰<br><br>I loved you cuddling up close to me 😍` },
     { word: "SEARCH", message: `Even though you didn't leave with a dress yesterday, every style you try on gets you one step closer to the perfect one!<br><br>I love how supportive everyone around you was and will continue to be through this process ❤️<br><br>You're going to find the right one soon and I know it's going to look incredible on you! 😍` },
+    { word: "FILLED", message: `This weekend was filled with lots of good things!<br><br>Getting to spend time with friends and getting extra quality time together was so nice ❤️<br><br>It felt like longer than one weekend together 🥰` },
     { word: "H", message: "Refresh page" }
 ];
