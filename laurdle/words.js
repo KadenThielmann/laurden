@@ -175,6 +175,6 @@ export const WORD_BANK = [
     { word: "FILLED", message: `This weekend was filled with lots of good things!<br><br>Getting to spend time with friends and getting extra quality time together was so nice ❤️<br><br>It felt like longer than one weekend together 🥰` },
     { word: "FRUIT", message: `You received such high praise yesterday at your MC! You so clearly demonstrate the fruits of the spirit and everyone you meet can see it and benefits from being around you.<br><br>I love your heart and how you live out your faith through how you present yourself ❤️` },
     { word: "WISDOM", message: `You were described Monday night as wise, and you demonstrated exactly why Tuesday morning!<br><br>You handled everything with so much love and care. When issues came up, you responded in ways that de-escalated things and gently steered clear of moments that had the potential to get heated.<br><br>I'm so proud of you baby ❤️` },
-    { word: "RAINY", message: "Yesterday being dark and rainy made our cozy Survivor night in even better!<br><br>I LOVED being cuddled up with you watching the show and talking for hours ❤️<br><br>I can't wait until we can get cozy together every rainy night!" },
+    { word: "RAINY", message: `Yesterday being dark and rainy made our cozy Survivor night in even better!<br><br>I LOVED being cuddled up with you watching the show and talking for hours ❤️<br><br>I can't wait until we can get cozy together every rainy night!` },
     { word: "H", message: "Refresh page" }
 ];
