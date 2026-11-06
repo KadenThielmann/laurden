@@ -176,5 +176,6 @@ export const WORD_BANK = [
     { word: "FRUIT", message: `You received such high praise yesterday at your MC! You so clearly demonstrate the fruits of the spirit and everyone you meet can see it and benefits from being around you.<br><br>I love your heart and how you live out your faith through how you present yourself ❤️` },
     { word: "WISDOM", message: `You were described Monday night as wise, and you demonstrated exactly why Tuesday morning!<br><br>You handled everything with so much love and care. When issues came up, you responded in ways that de-escalated things and gently steered clear of moments that had the potential to get heated.<br><br>I'm so proud of you baby ❤️` },
     { word: "RAINY", message: `Yesterday being dark and rainy made our cozy Survivor night in even better!<br><br>I LOVED being cuddled up with you watching the show and talking for hours ❤️<br><br>I can't wait until we can get cozy together every rainy night!` },
+    { word: "PRAISE", message: "God has been making Himself so clear with how He's been orchestrating events!<br><br>We have so much to praise God for and even when things aren't good, God still is and should be praised. I'm dancing extra while listening to Praise right now!<br><br>Have a great day baby ❤️" },
     { word: "H", message: "Refresh page" }
 ];
