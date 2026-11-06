@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Laurden | Daily Shoe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- HEADER -->
+    <header class="header">
+      <a href="/" class="back-link" title="Back to Laurden.ca">← Home</a>
+      <div class="title-group">
+        <h1>👞 The Shoe Game 👠</h1>
+        <p id="date-display" class="subtitle"></p>
+      </div>
+      <div id="player-pill" class="player-pill hidden" onclick="logout()" title="Tap to switch player">
+        <span id="player-badge-name"></span> ⇄
+      </div>
+    </header>
+
+    <!-- MAIN CARD -->
+    <main class="card">
+
+      <!-- 1. PIN PAD SCREEN -->
+      <section id="pin-screen" class="screen hidden">
+        <h2>Who's Playing?</h2>
+        <p class="muted">Enter your secret 4-digit PIN</p>
+        
+        <div id="pin-dots" class="pin-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <p id="pin-error" class="error-text hidden">Invalid PIN. Try again!</p>
+
+        <div class="keypad">
+          <button class="key" onclick="pressKey('1')">1</button>
+          <button class="key" onclick="pressKey('2')">2</button>
+          <button class="key" onclick="pressKey('3')">3</button>
+          <button class="key" onclick="pressKey('4')">4</button>
+          <button class="key" onclick="pressKey('5')">5</button>
+          <button class="key" onclick="pressKey('6')">6</button>
+          <button class="key" onclick="pressKey('7')">7</button>
+          <button class="key" onclick="pressKey('8')">8</button>
+          <button class="key" onclick="pressKey('9')">9</button>
+          <button class="key key-action" onclick="clearPin()">CLR</button>
+          <button class="key" onclick="pressKey('0')">0</button>
+          <button class="key key-action" onclick="backspacePin()">⌫</button>
+        </div>
+      </section>
+
+      <!-- 2. LOADING SCREEN -->
+      <section id="loading-screen" class="screen">
+        <div class="spinner"></div>
+        <p id="loading-text" class="muted">Checking today's shoes...</p>
+      </section>
+
+      <!-- 3. GAME SCREEN -->
+      <section id="game-screen" class="screen hidden">
+        <div id="partner-status-banner" class="status-banner"></div>
+
+        <div class="question-box">
+          <span class="question-label">Today's Question</span>
+          <h2 id="question-text"></h2>
+        </div>
+
+        <!-- SHOE PICKER (Before answering) -->
+        <div id="choice-area" class="choice-grid hidden">
+          <button class="shoe-card kaden-card" onclick="submitPick('Kaden')">
+            <span class="shoe-emoji">👞</span>
+            <span class="shoe-title">Kaden</span>
+            <span class="shoe-sub">Raise Kaden's Shoe</span>
+          </button>
+
+          <button class="shoe-card lauren-card" onclick="submitPick('Lauren')">
+            <span class="shoe-emoji">👠</span>
+            <span class="shoe-title">Lauren</span>
+            <span class="shoe-sub">Raise Lauren's Shoe</span>
+          </button>
+        </div>
+
+        <!-- WAITING AREA (After you answer, before partner answers) -->
+        <div id="waiting-area" class="waiting-box hidden">
+          <div class="raised-preview">
+            <span class="muted">You raised:</span>
+            <div id="my-locked-shoe" class="locked-pill"></div>
+          </div>
+          <div class="pulse-ring"></div>
+          <p id="waiting-text" class="muted"></p>
+          <button class="secondary-btn" onclick="manualRefresh()">🔄 Check Again</button>
+        </div>
+
+        <!-- REVEAL AREA (Both answered!) -->
+        <div id="reveal-area" class="reveal-box hidden">
+          <div id="match-banner" class="match-banner"></div>
+
+          <div class="reveal-grid">
+            <div class="reveal-column">
+              <span class="reveal-who" id="me-label">You</span>
+              <div class="reveal-shoe-card" id="my-reveal-card">
+                <span class="reveal-emoji" id="my-reveal-emoji"></span>
+                <strong id="my-reveal-pick"></strong>
+              </div>
+            </div>
+
+            <div class="reveal-vs">VS</div>
+
+            <div class="reveal-column">
+              <span class="reveal-who" id="partner-label">Partner</span>
+              <div class="reveal-shoe-card" id="partner-reveal-card">
+                <span class="reveal-emoji" id="partner-reveal-emoji"></span>
+                <strong id="partner-reveal-pick"></strong>
+              </div>
+            </div>
+          </div>
+
+          <button id="share-btn" class="primary-btn" onclick="shareResult()">
+            📋 Share Today's Result
+          </button>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
