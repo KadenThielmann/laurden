@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Laurden | Daily Shoe Game</title>
+  <title>Laurden | Shoe Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,11 +13,14 @@
     <header class="header">
       <a href="/" class="back-link" title="Back to Laurden.ca">← Home</a>
       <div class="title-group">
-        <h1>👞 The Shoe Game 👠</h1>
+        <h1>Shoe Game</h1>
         <p id="date-display" class="subtitle"></p>
       </div>
-      <div id="player-pill" class="player-pill hidden" onclick="logout()" title="Tap to switch player">
-        <span id="player-badge-name"></span> ⇄
+      <!-- Wrapper keeps the title centered even when player-pill is hidden -->
+      <div style="min-width: 80px; display: flex; justify-content: flex-end;">
+        <div id="player-pill" class="player-pill hidden" onclick="logout()" title="Tap to switch player">
+          <span id="player-badge-name"></span> ⇄
+        </div>
       </div>
     </header>
 
@@ -38,18 +41,18 @@
         <p id="pin-error" class="error-text hidden">Invalid PIN. Try again!</p>
 
         <div class="keypad">
-          <button class="key" onclick="pressKey('1')">1</button>
-          <button class="key" onclick="pressKey('2')">2</button>
-          <button class="key" onclick="pressKey('3')">3</button>
-          <button class="key" onclick="pressKey('4')">4</button>
-          <button class="key" onclick="pressKey('5')">5</button>
-          <button class="key" onclick="pressKey('6')">6</button>
-          <button class="key" onclick="pressKey('7')">7</button>
-          <button class="key" onclick="pressKey('8')">8</button>
-          <button class="key" onclick="pressKey('9')">9</button>
-          <button class="key key-action" onclick="clearPin()">CLR</button>
-          <button class="key" onclick="pressKey('0')">0</button>
-          <button class="key key-action" onclick="backspacePin()">⌫</button>
+          <button type="button" class="key" onclick="pressKey('1')">1</button>
+          <button type="button" class="key" onclick="pressKey('2')">2</button>
+          <button type="button" class="key" onclick="pressKey('3')">3</button>
+          <button type="button" class="key" onclick="pressKey('4')">4</button>
+          <button type="button" class="key" onclick="pressKey('5')">5</button>
+          <button type="button" class="key" onclick="pressKey('6')">6</button>
+          <button type="button" class="key" onclick="pressKey('7')">7</button>
+          <button type="button" class="key" onclick="pressKey('8')">8</button>
+          <button type="button" class="key" onclick="pressKey('9')">9</button>
+          <button type="button" class="key key-action" onclick="clearPin()">CLR</button>
+          <button type="button" class="key" onclick="pressKey('0')">0</button>
+          <button type="button" class="key key-action" onclick="backspacePin()">⌫</button>
         </div>
       </section>
 
@@ -70,13 +73,13 @@
 
         <!-- SHOE PICKER (Before answering) -->
         <div id="choice-area" class="choice-grid hidden">
-          <button class="shoe-card kaden-card" onclick="submitPick('Kaden')">
+          <button type="button" class="shoe-card kaden-card" onclick="submitPick('Kaden')">
             <span class="shoe-emoji">👞</span>
             <span class="shoe-title">Kaden</span>
             <span class="shoe-sub">Raise Kaden's Shoe</span>
           </button>
 
-          <button class="shoe-card lauren-card" onclick="submitPick('Lauren')">
+          <button type="button" class="shoe-card lauren-card" onclick="submitPick('Lauren')">
             <span class="shoe-emoji">👠</span>
             <span class="shoe-title">Lauren</span>
             <span class="shoe-sub">Raise Lauren's Shoe</span>
@@ -86,12 +89,12 @@
         <!-- WAITING AREA (After you answer, before partner answers) -->
         <div id="waiting-area" class="waiting-box hidden">
           <div class="raised-preview">
-            <span class="muted">You raised:</span>
+            <span class="muted">You raised:</span><br>
             <div id="my-locked-shoe" class="locked-pill"></div>
           </div>
           <div class="pulse-ring"></div>
           <p id="waiting-text" class="muted"></p>
-          <button class="secondary-btn" onclick="manualRefresh()">🔄 Check Again</button>
+          <button type="button" class="secondary-btn" onclick="manualRefresh()">🔄 Check Again</button>
         </div>
 
         <!-- REVEAL AREA (Both answered!) -->
@@ -118,7 +121,7 @@
             </div>
           </div>
 
-          <button id="share-btn" class="primary-btn" onclick="shareResult()">
+          <button type="button" id="share-btn" class="primary-btn" onclick="shareResult()">
             📋 Share Today's Result
           </button>
         </div>
