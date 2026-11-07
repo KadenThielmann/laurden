@@ -1,19 +1,22 @@
+/* =========================================================
+   THEME VARIABLES
+   ========================================================= */
 :root {
-  --bg: #fdfbf7;
-  --card-bg: #ffffff;
-  --text: #1f2937;
-  --muted: #6b7280;
-  --accent: #d97706;
-  --accent-light: #fef3c7;
-  --kaden-bg: #eff6ff;
-  --kaden-border: #bfdbfe;
-  --lauren-bg: #fdf2f8;
-  --lauren-border: #fbcfe8;
-  --match-bg: #ecfdf5;
-  --match-text: #065f46;
-  --split-bg: #fffbeb;
-  --split-text: #92400e;
-  --shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.07);
+  --bg: #ffffff;              /* Main background (#ffffff or #faf8f5) */
+  --surface: #f8f9fa;         /* Card / tile background */
+  --border: #d3d6da;          /* Classic Wordle-style light border */
+  --border-dark: #787c7e;     /* Active / hover border */
+  --text: #1a1a1b;            /* Primary text */
+  --muted: #787c7e;           /* Secondary text */
+  
+  /* Accent & Game Result Colors (Wordle Green & Gold) */
+  --accent: #c9b458;          /* Warm gold accent */
+  --match-bg: #6aaa64;        /* Wordle Green for Matches */
+  --match-text: #ffffff;
+  --split-bg: #c9b458;        /* Wordle Yellow/Gold for Split Decisions */
+  --split-text: #ffffff;
+
+  --font-main: "Clear Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
 }
 
 * {
@@ -24,33 +27,39 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-main);
   background-color: var(--bg);
   color: var(--text);
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 20px 16px;
 }
 
 .app-container {
   width: 100%;
-  max-width: 440px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
-/* HEADER */
+/* =========================================================
+   TOP HEADER BAR (Matches Wordle / Laurdle top bar)
+   ========================================================= */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 24px;
 }
 
 .back-link {
   text-decoration: none;
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
+  min-width: 70px;
 }
 
 .title-group {
@@ -58,33 +67,40 @@ body {
 }
 
 .title-group h1 {
-  font-size: 1.35rem;
-  font-weight: 800;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .subtitle {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--muted);
   margin-top: 2px;
 }
 
 .player-pill {
-  background: #f3f4f6;
-  padding: 6px 12px;
-  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  border-radius: 6px;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   user-select: none;
+  min-width: 70px;
+  text-align: right;
 }
 
-/* CARD & SCREENS */
+.player-pill:hover {
+  border-color: var(--border-dark);
+}
+
+/* =========================================================
+   MAIN CONTENT AREA
+   ========================================================= */
 .card {
-  background: var(--card-bg);
-  border-radius: 20px;
-  padding: 28px 22px;
-  box-shadow: var(--shadow);
-  border: 1px solid rgba(0,0,0,0.04);
+  padding: 0 20px 32px;
   text-align: center;
 }
 
@@ -94,157 +110,164 @@ body {
 
 .muted {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
 }
 
-/* PIN SCREEN & KEYPAD */
+/* =========================================================
+   PIN SCREEN & TILE KEYPAD
+   ========================================================= */
+#pin-screen h2 {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
 .pin-dots {
   display: flex;
   justify-content: center;
-  gap: 14px;
-  margin: 24px 0;
+  gap: 12px;
+  margin: 20px 0;
 }
 
 .dot {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 2px solid #d1d5db;
-  transition: all 0.15s ease;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.1s ease;
 }
 
 .dot.filled {
-  background: var(--text);
   border-color: var(--text);
-  transform: scale(1.1);
+  background-color: var(--text);
 }
 
 .error-text {
-  color: #dc2626;
+  color: #d93025;
   font-size: 0.85rem;
   margin-bottom: 12px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .keypad {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  max-width: 280px;
+  gap: 8px;
+  max-width: 260px;
   margin: 0 auto;
 }
 
 .key {
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
+  background: #d3d6da;
+  border: none;
+  border-radius: 4px;
   padding: 16px 0;
-  font-size: 1.35rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--text);
   cursor: pointer;
-  transition: transform 0.1s, background 0.15s;
 }
 
 .key:active {
-  transform: scale(0.95);
-  background: #e5e7eb;
+  background: var(--border-dark);
+  color: #fff;
 }
 
 .key-action {
-  font-size: 0.95rem;
-  color: var(--muted);
+  font-size: 0.85rem;
 }
 
-/* LOADING SPINNER */
+/* =========================================================
+   LOADING SPINNER
+   ========================================================= */
 .spinner {
-  width: 38px;
-  height: 38px;
-  border: 4px solid #f3f4f6;
-  border-top-color: var(--accent);
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--border);
+  border-top-color: var(--text);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
-  margin: 24px auto 16px;
+  margin: 32px auto 12px;
 }
 
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
 
-/* GAME ELEMENTS */
+/* =========================================================
+   QUESTION & SHOE TILES
+   ========================================================= */
 .status-banner {
-  background: var(--accent-light);
-  color: #92400e;
-  padding: 10px 14px;
-  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 .question-box {
-  margin: 10px 0 26px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 24px 18px;
+  margin-bottom: 24px;
+  background: var(--bg);
 }
 
 .question-label {
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.08em;
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 #question-text {
-  font-size: 1.4rem;
-  line-height: 1.35;
+  font-size: 1.3rem;
+  line-height: 1.4;
   margin-top: 8px;
+  font-weight: 700;
 }
 
-/* SHOE BUTTON CARDS */
 .choice-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 14px;
+  gap: 12px;
 }
 
 .shoe-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 22px 12px;
-  border-radius: 16px;
+  padding: 24px 12px;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  transition: border-color 0.15s, transform 0.1s;
 }
 
 .shoe-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  border-color: var(--text);
 }
 
 .shoe-card:active {
-  transform: scale(0.97);
-}
-
-.kaden-card {
-  background: var(--kaden-bg);
-  border: 2px solid var(--kaden-border);
-}
-
-.lauren-card {
-  background: var(--lauren-bg);
-  border: 2px solid var(--lauren-border);
+  transform: scale(0.98);
 }
 
 .shoe-emoji {
-  font-size: 2.8rem;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
 }
 
 .shoe-title {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .shoe-sub {
@@ -253,42 +276,45 @@ body {
   margin-top: 4px;
 }
 
-/* WAITING AREA */
+/* =========================================================
+   WAITING & REVEAL STATES
+   ========================================================= */
 .waiting-box {
-  padding: 16px 0 8px;
+  padding: 16px 0;
 }
 
 .locked-pill {
   display: inline-block;
-  margin-top: 8px;
-  padding: 10px 20px;
-  border-radius: 12px;
-  background: #f3f4f6;
-  font-size: 1.2rem;
+  margin: 10px 0 20px;
+  padding: 10px 24px;
+  border: 2px solid var(--text);
+  border-radius: 6px;
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
 .pulse-ring {
-  width: 14px;
-  height: 14px;
-  background: var(--accent);
+  width: 10px;
+  height: 10px;
+  background: var(--text);
   border-radius: 50%;
-  margin: 24px auto 12px;
+  margin: 8px auto 14px;
   animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.5); }
-  70% { box-shadow: 0 0 0 12px rgba(217, 119, 6, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0); }
+  0% { opacity: 1; }
+  50% { opacity: 0.25; }
+  100% { opacity: 1; }
 }
 
-/* REVEAL AREA */
 .match-banner {
   padding: 12px;
-  border-radius: 12px;
-  font-weight: 800;
-  font-size: 1.1rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   margin-bottom: 20px;
 }
 
@@ -306,7 +332,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 24px;
 }
 
@@ -316,58 +342,58 @@ body {
 
 .reveal-who {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 700;
+  text-transform: uppercase;
   margin-bottom: 6px;
 }
 
 .reveal-shoe-card {
-  background: #f9fafb;
-  border: 2px solid #e5e7eb;
-  border-radius: 16px;
+  background: var(--surface);
+  border: 2px solid var(--border-dark);
+  border-radius: 8px;
   padding: 18px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  animation: popIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-@keyframes popIn {
-  0% { transform: scale(0.85); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
 }
 
 .reveal-emoji {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
 }
 
 .reveal-vs {
-  font-weight: 800;
-  font-size: 0.85rem;
-  color: #9ca3af;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--muted);
 }
 
-/* BUTTONS */
+/* =========================================================
+   BUTTONS
+   ========================================================= */
 .primary-btn {
   width: 100%;
   padding: 14px;
   border: none;
-  border-radius: 12px;
-  background: var(--text);
+  border-radius: 6px;
+  background: var(--match-bg);
   color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .secondary-btn {
   margin-top: 16px;
   padding: 8px 16px;
-  border: 1px solid #d1d5db;
-  border-radius: 10px;
-  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
