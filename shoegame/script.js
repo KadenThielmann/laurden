@@ -216,7 +216,7 @@ function renderGame(data) {
     matchBanner.className = "match-banner " + (matched ? "is-match" : "is-split");
     matchBanner.innerText = matched
       ? `🎉 It's a Match! You both raised ${data.myPick}'s shoe!`
-      : `😂 Split Decision!`;
+      : `⚖️ Split Decision!`;
 
     document.getElementById("me-label").innerText = data.player;
     document.getElementById("my-reveal-emoji").innerText = shoeEmoji(data.myPick);
@@ -257,7 +257,7 @@ function shareResult() {
     `"${d.question}"`,
     `${d.player}: ${shoeEmoji(d.myPick)} ${d.myPick}`,
     `${partnerName}: ${shoeEmoji(d.partnerPick)} ${d.partnerPick}`,
-    matched ? "🎉 Match!" : "😂 Split Decision!"
+    matched ? "🎉 Match!" : "⚖️ Split Decision!"
   ].join("\n");
 
   if (navigator.clipboard && navigator.clipboard.writeText) {
