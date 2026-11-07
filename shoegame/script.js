@@ -3,6 +3,7 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwvUy21qDSO1miajUJQJ
 let currentPin = "";
 let pollTimer = null;
 let lastGameState = null;
+let isFetching = false;
 
 // Format today's local date as YYYY-MM-DD
 function getTodayDateString() {
@@ -50,6 +51,7 @@ function showScreen(screenId) {
 }
 
 function pressKey(digit) {
+  if (isFetching) return;
   if (currentPin.length < 4) {
     currentPin += digit;
     document.getElementById("pin-error").classList.add("hidden");
@@ -62,11 +64,13 @@ function pressKey(digit) {
 }
 
 function backspacePin() {
+  if (isFetching) return;
   currentPin = currentPin.slice(0, -1);
   updatePinDots();
 }
 
 function clearPin() {
+  if (isFetching) return;
   currentPin = "";
   updatePinDots();
 }
@@ -85,6 +89,7 @@ function verifyAndSavePin() {
 
 function logout() {
   stopPolling();
+  isFetching = false;
   localStorage.removeItem("shoeGamePin");
   currentPin = "";
   updatePinDots();
@@ -96,24 +101,33 @@ function logout() {
 // NETWORK CALLS TO GOOGLE SHEETS
 // =========================================================
 async function fetchGameState(pick = null, silentPoll = false) {
+  if (isFetching) return;
+  isFetching = true;
+
+  const spinnerEl = document.querySelector("#loading-screen .spinner");
+  const loadingTextEl = document.getElementById("loading-text");
+
   if (!silentPoll) {
     showScreen("loading-screen");
-    document.getElementById("loading-text").innerText = pick
+    if (spinnerEl) spinnerEl.classList.remove("hidden");
+    loadingTextEl.innerText = pick
       ? `Raising ${pick}'s shoe...`
       : "Loading today's question...";
   }
 
   const today = getTodayDateString();
-  let url = `${SCRIPT_URL}?pin=${encodeURIComponent(currentPin)}&date=${encodeURIComponent(today)}`;
+  // Added &_t= timestamp so mobile browsers never cache auto-poll requests
+  let url = `${SCRIPT_URL}?pin=${encodeURIComponent(currentPin)}&date=${encodeURIComponent(today)}&_t=${Date.now()}`;
   if (pick) {
     url += `&pick=${encodeURIComponent(pick)}`;
   }
 
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, { redirect: "follow" });
     const data = await res.json();
 
     if (data.error) {
+      stopPolling();
       if (data.error === "Invalid PIN") {
         localStorage.removeItem("shoeGamePin");
         currentPin = "";
@@ -122,7 +136,8 @@ async function fetchGameState(pick = null, silentPoll = false) {
         showScreen("pin-screen");
         return;
       }
-      document.getElementById("loading-text").innerText = data.error;
+      if (spinnerEl) spinnerEl.classList.add("hidden");
+      loadingTextEl.innerHTML = `${data.error}<br><br><button type="button" class="secondary-btn" onclick="logout()">Switch Player / Retry</button>`;
       return;
     }
 
@@ -130,9 +145,12 @@ async function fetchGameState(pick = null, silentPoll = false) {
     renderGame(data);
   } catch (err) {
     if (!silentPoll) {
-      document.getElementById("loading-text").innerText =
-        "Could not connect to Google Sheet. Make sure SCRIPT_URL is set!";
+      if (spinnerEl) spinnerEl.classList.add("hidden");
+      loadingTextEl.innerHTML =
+        `Could not connect to Google Sheet.<br><br><button type="button" class="secondary-btn" onclick="manualRefresh()">🔄 Try Again</button>`;
     }
+  } finally {
+    isFetching = false;
   }
 }
 
@@ -242,13 +260,15 @@ function shareResult() {
     matched ? "🎉 Match!" : "😂 Split Decision!"
   ].join("\n");
 
-  navigator.clipboard.writeText(text).then(() => {
-    const btn = document.getElementById("share-btn");
-    btn.innerText = "✅ Copied to Clipboard!";
-    setTimeout(() => {
-      btn.innerText = "📋 Share Today's Result";
-    }, 2000);
-  });
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById("share-btn");
+      btn.innerText = "✅ Copied to Clipboard!";
+      setTimeout(() => {
+        btn.innerText = "📋 Share Today's Result";
+      }, 2000);
+    });
+  }
 }
 
 // Support physical keyboard typing on desktop too
