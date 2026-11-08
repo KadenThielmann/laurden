@@ -178,5 +178,6 @@ export const WORD_BANK = [
     { word: "RAINY", message: `Yesterday being dark and rainy made our cozy Survivor night in even better!<br><br>I LOVED being cuddled up with you watching the show and talking for hours ❤️<br><br>I can't wait until we can get cozy together every rainy night!` },
     { word: "PRAISE", message: "God has been making Himself so clear with how He's been orchestrating events!<br><br>We have so much to praise God for and even when things aren't good, God still is and should be praised. I'm dancing extra while listening to Praise right now!<br><br>Have a great day baby ❤️" },
     { word: "SHOES", message: `I made a <a href="https://laurden.ca/shoegame/" style="color: inherit; text-decoration: underline;">new game</a> for our website! 👞👠<br><br>Every day, a new question will be available ❤️<br><br>I took a bunch of random questions without reading them all so it'll be fun for both of us!` },
+    { word: "DRESS", message: `You found a dress you love!!<br><br>With your next appointment, there's no stress to find the right one and you have something to compare them all to.<br><br>I can't wait to see you in your dress 💒❤️` },
     { word: "H", message: "Refresh page" }
 ];
