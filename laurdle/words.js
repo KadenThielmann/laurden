@@ -179,5 +179,6 @@ export const WORD_BANK = [
     { word: "PRAISE", message: "God has been making Himself so clear with how He's been orchestrating events!<br><br>We have so much to praise God for and even when things aren't good, God still is and should be praised. I'm dancing extra while listening to Praise right now!<br><br>Have a great day baby ❤️" },
     { word: "SHOES", message: `I made a <a href="https://laurden.ca/shoegame/" style="color: inherit; text-decoration: underline;">new game</a> for our website! 👞👠<br><br>Every day, a new question will be available ❤️<br><br>I took a bunch of random questions without reading them all so it'll be fun for both of us!` },
     { word: "DRESS", message: `You found a dress you love!!<br><br>With your next appointment, there's no stress to find the right one and you have something to compare them all to.<br><br>I can't wait to see you in your dress 💒❤️` },
+    { word: "GROWTH", message: `I have loved seeing the growth of the young adults group at Tintern!<br><br>It's such an encouragement as I've been thinking about my current group ending soon and looking ahead to what's next for us.<br><br>I'm excited to see where God leads us 🙏🏻 ❤️` },
     { word: "H", message: "Refresh page" }
 ];
