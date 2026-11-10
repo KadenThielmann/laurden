@@ -180,5 +180,6 @@ export const WORD_BANK = [
     { word: "SHOES", message: `I made a <a href="https://laurden.ca/shoegame/" style="color: inherit; text-decoration: underline;">new game</a> for our website! 👞👠<br><br>Every day, a new question will be available ❤️<br><br>I took a bunch of random questions without reading them all so it'll be fun for both of us!` },
     { word: "DRESS", message: `You found a dress you love!!<br><br>With your next appointment, there's no stress to find the right one and you have something to compare them all to.<br><br>I can't wait to see you in your dress 💒❤️` },
     { word: "GROWTH", message: `I have loved seeing the growth of the young adults group at Tintern!<br><br>It's such an encouragement as I've been thinking about my current group ending soon and looking ahead to what's next for us.<br><br>I'm excited to see where God leads us 🙏🏻 ❤️` },
+    { word: "VERSUS", message: `The matchup I've been dreading! Me vs you 😭<br><br>You've been steadily improving your team and it has shown through the improved stats — even in the week you lost, your overall stats versus the league have been trending up each week since week 2.<br><br>I hope you win and we end the week tied for first! ❤️` },
     { word: "H", message: "Refresh page" }
 ];
