@@ -185,5 +185,6 @@ export const WORD_BANK = [
     { word: "APPLY", message: `You put so much effort into this application and it shows!<br><br>It was so impressive reading about your experiences and seeing how much you know about teaching and working with kids!<br><br>I loved working with you last night! We make a great team ❤️<br><br>Praying for doors to be opened 🙏🏻` },
     { word: "SUBMIT", message: `LET'S GO!! Your application is officially submitted! 🎉<br><br>After all the time and effort you put into your application, your work is done and now we wait and trust God with what comes next🙏🏻<br><br>You crushed this and I'm so proud of you! ❤️` },
     { word: "SUMMIT", message: `I wasn't going to make this SUMMIT until I saw it would only be one letter different than yesterday 😂<br><br>I hope this isn't too hard with the double m!<br><br>I had so much fun with you yesterday ❤️ I love you and our time together and how much we prioritize each other and good communication 🥰` },
+    { word: "ICING", message: `The cupcakes were so cute! You have a great group of friends that want to celebrate big moments in your life 🥰<br><br>I'm not fully looking forward to trying one today after your taste review but I'm excited to see it and you!! ❤️` },
     { word: "H", message: "Refresh page" }
 ];
