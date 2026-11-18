@@ -188,5 +188,6 @@ export const WORD_BANK = [
     { word: "ICING", message: `The cupcakes were so cute! You have a great group of friends that want to celebrate big moments in your life 🥰<br><br>I'm not fully looking forward to trying one today after your taste review but I'm excited to see it and you!! ❤️` },
     { word: "LETSGO", message: `We're tied for first!! We're the power couple after six weeks!<br><br>I loved winning and having a streak so it was tough not making moves this week but I love being tied with you for first! And it may not have even made a difference because you crushed it!!<br><br>Let's freaking go baby!! We're the two best fantasy players currently 🥰❤️` },
     { word: "PLANS", message: `I love making plans with you for our wedding, honeymoon, and life together ❤️<br><br>One of these places that we find for our honeymoon, we'll be going to in real life!!<br><br>Praying God continues to guide us in our plans 🙏🏻` },
+    { word: "SKILLS", message: `You had another day that you thought could be tough and you made it a success. God has been blessing you and you also are so well equipped with all of your knowledge and skills.<br><br>Praying you have another great day today! ❤️🙏🏻` },
     { word: "H", message: "Refresh page" }
 ];
