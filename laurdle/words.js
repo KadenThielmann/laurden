@@ -190,5 +190,6 @@ export const WORD_BANK = [
     { word: "PLANS", message: `I love making plans with you for our wedding, honeymoon, and life together ❤️<br><br>One of these places that we find for our honeymoon, we'll be going to in real life!!<br><br>Praying God continues to guide us in our plans 🙏🏻` },
     { word: "SKILLS", message: `You had another day that you thought could be tough and you made it a success. God has been blessing you and you also are so well equipped with all of your knowledge and skills.<br><br>Praying you have another great day today! ❤️🙏🏻` },
     { word: "BEAUTY", message: `Inside and out, you are absolutely beautiful 😍<br><br>Your face, hair, heart, smile, brain, character — I'm beyond blessed to be marrying you! You're going to be my WIFE?! ❤️<br><br>I can't wait until tomorrow to remind you in person 😘😉` },
+    { word: "UNWIND", message: `You had another great day at work yesterday and this evening you officially get to unwind with me all weekend!!<br><br>I'm so proud of you pushing your comfort zone multiple times this week and having a very successful week! ❤️<br><br>Now it's my turn to take care of you! 🥰` },
     { word: "H", message: "Refresh page" }
 ];
