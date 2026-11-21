@@ -191,5 +191,6 @@ export const WORD_BANK = [
     { word: "SKILLS", message: `You had another day that you thought could be tough and you made it a success. God has been blessing you and you also are so well equipped with all of your knowledge and skills.<br><br>Praying you have another great day today! ❤️🙏🏻` },
     { word: "BEAUTY", message: `Inside and out, you are absolutely beautiful 😍<br><br>Your face, hair, heart, smile, brain, character — I'm beyond blessed to be marrying you! You're going to be my WIFE?! ❤️<br><br>I can't wait until tomorrow to remind you in person 😘😉` },
     { word: "UNWIND", message: `You had another great day at work yesterday and this evening you officially get to unwind with me all weekend!!<br><br>I'm so proud of you pushing your comfort zone multiple times this week and having a very successful week! ❤️<br><br>Now it's my turn to take care of you! 🥰` },
+    { word: "VICTOR", message: `Such a sad movie last night 😭 Thank you for suffering through it with me ❤️<br><br>Let's make today much happier! Hopefully we'll start off the afternoon by being victors ourselves!!` },
     { word: "H", message: "Refresh page" }
 ];
