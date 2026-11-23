@@ -193,5 +193,6 @@ export const WORD_BANK = [
     { word: "UNWIND", message: `You had another great day at work yesterday and this evening you officially get to unwind with me all weekend!!<br><br>I'm so proud of you pushing your comfort zone multiple times this week and having a very successful week! ❤️<br><br>Now it's my turn to take care of you! 🥰` },
     { word: "VICTOR", message: `Such a sad movie last night 😭 Thank you for suffering through it with me ❤️<br><br>Let's make today much happier! Hopefully we'll start off the afternoon by being victors ourselves!!` },
     { word: "CUDDLE", message: `It's been sooo nice having lots of time this weekend to cuddle and spend quality time together 🥰<br><br>Leafs games + cuddles + giving and receiving massages?? This is real life and can be a regular thing in under 9 months?! 😍` },
+    { word: "AOURIE", message: `Did you get this in one?<br><br>This weekend was so good! Lots of fun moments, laughs, cuddles, time with God, good conversation, and lots of caring for each other 🥰<br><br>It's sad to be apart for the week but I'm so grateful for our time together and that those weekends can become our regular life next year ❤️😭` },
     { word: "H", message: "Refresh page" }
 ];
