@@ -194,5 +194,6 @@ export const WORD_BANK = [
     { word: "VICTOR", message: `Such a sad movie last night 😭 Thank you for suffering through it with me ❤️<br><br>Let's make today much happier! Hopefully we'll start off the afternoon by being victors ourselves!!` },
     { word: "CUDDLE", message: `It's been sooo nice having lots of time this weekend to cuddle and spend quality time together 🥰<br><br>Leafs games + cuddles + giving and receiving massages?? This is real life and can be a regular thing in under 9 months?! 😍` },
     { word: "AOURIE", message: `Did you get this in one?<br><br>This weekend was so good! Lots of fun moments, laughs, cuddles, time with God, good conversation, and lots of caring for each other 🥰<br><br>It's sad to be apart for the week but I'm so grateful for our time together and that those weekends can become our regular life next year ❤️😭` },
+    { word: "CUTIE", message: `The kids yesterday were so cutie being excited that they've already seen you earlier in the day 🥹 And Dane was cutie getting excited to hear my voice.<br><br>But you're the absolute most cutie 🥰 😍<br><br>I'm excited to see you!! ❤️` },
     { word: "H", message: "Refresh page" }
 ];
