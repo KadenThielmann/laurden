@@ -196,5 +196,6 @@ export const WORD_BANK = [
     { word: "AOURIE", message: `Did you get this in one?<br><br>This weekend was so good! Lots of fun moments, laughs, cuddles, time with God, good conversation, and lots of caring for each other 🥰<br><br>It's sad to be apart for the week but I'm so grateful for our time together and that those weekends can become our regular life next year ❤️😭` },
     { word: "CUTIE", message: `The kids yesterday were so cutie being excited that they've already seen you earlier in the day 🥹 And Dane was cutie getting excited to hear my voice.<br><br>But you're the absolute most cutie 🥰 😍<br><br>I'm excited to see you!! ❤️` },
     { word: "ALIGN", message: `YOUR DRESS IS OFFICIALLY LOCKED IN!! 💒❤️<br><br>It's so cool seeing how God had His hand in the process from the beginning. The first place you went to ended up having the dress you love and you don't need to worry about if they're trustworthy! God aligned all the pieces perfectly 🙏🏻<br><br>I can't wait to see you in your dress on our wedding day! 😍` },
+    { word: "FOCUS", message: `You've been so focused and hardworking! You put so much work into the interview preparation yesterday and there isn't even a last-minute rush.<br><br>I'm proud of you for how hard you're working for your, and our, future ❤️` },
     { word: "H", message: "Refresh page" }
 ];
