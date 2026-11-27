@@ -197,5 +197,6 @@ export const WORD_BANK = [
     { word: "CUTIE", message: `The kids yesterday were so cutie being excited that they've already seen you earlier in the day 🥹 And Dane was cutie getting excited to hear my voice.<br><br>But you're the absolute most cutie 🥰 😍<br><br>I'm excited to see you!! ❤️` },
     { word: "ALIGN", message: `YOUR DRESS IS OFFICIALLY LOCKED IN!! 💒❤️<br><br>It's so cool seeing how God had His hand in the process from the beginning. The first place you went to ended up having the dress you love and you don't need to worry about if they're trustworthy! God aligned all the pieces perfectly 🙏🏻<br><br>I can't wait to see you in your dress on our wedding day! 😍` },
     { word: "FOCUS", message: `You've been so focused and hardworking! You put so much work into the interview preparation yesterday and there isn't even a last-minute rush.<br><br>I'm proud of you for how hard you're working for your, and our, future ❤️` },
+    { word: "METEOR", message: `I think your usual first word will be good for today. Let me know how many you got it in!<br><br>I saw a meteor up close and I didn't want to make a single wish. I'm living in my dreams ❤️🙏🏻<br><br>I'm excited for another weekend together! Sooo excited to be building towards our life together 🥰` },
     { word: "H", message: "Refresh page" }
 ];
